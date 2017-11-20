@@ -47,6 +47,9 @@
         window.open(url, 'popup', 'width=450, height=800');
       }
     </script>
+    
+    <!-- simpleGraph.js -->
+    <script src="https://truemaxdh.github.io/simpleGraph.js/simpleGraph.js"></script>
   </head>
 
   <body>
@@ -105,6 +108,17 @@
             </li>
           </ul>
           <h2>Javascript Utility</h2>
+          <canvas id='graph1' width="500"  height="300"></canvas>
+          <canvas id='graph2' width="300" height="300"></canvas>
+          <script>
+            var gr = new simpleGraph();
+            var lbl_hour = [ '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23',];
+            var vals = [	56, 56, 54, 55, 55, 51, 56, 83, 71, 33, 2, 18, 22, 35, 4, 2, 8, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 15, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ];
+            gr.drawLineGraph("graph1", lbl_hour, vals);
+
+            vals = [	663, 21, 3, 1, 1, 1, ];
+            gr.drawPieGraph("graph2", vals);
+          </script>
           <ul>
             <li>
               <div>
