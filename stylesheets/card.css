@@ -14,7 +14,11 @@ li img {
      width : 150px;
      height : 150px;
      margin : 10px;
- }
+}
+
+li canvas {
+     margin : 10px;
+}
 
 li div {
     height: 170px;
