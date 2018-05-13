@@ -1,12 +1,4 @@
 ---
-layout: post
-title:  "Coding Is Fun"
-date:   2018-05-13 21:38:00 +0900
-categories: Game과 Utility
-date:   2018-05-13 21:38:00 +0900
-sitemap :
-  changefreq : daily
-  priority : 1.0
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
