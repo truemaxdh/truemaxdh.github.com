@@ -7,9 +7,9 @@ theme: jekyll-theme-hacker
 gems:
   - jekyll-mentions
 
-defaults:
-  -
-    scope:
-      path: "" # for all files in projects
-    values:
-      layout: "post"
+#defaults:
+#  -
+#    scope:
+#      path: "" # for all files in projects
+#    values:
+#      layout: "post"
