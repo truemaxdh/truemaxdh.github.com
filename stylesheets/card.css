@@ -10,7 +10,7 @@ li {
     /*padding-bottom : 20px;*/
     display: inline-block;
 }
-li img {
+li .img {
      width : 150px;
      height : 150px;
      margin : 10px;
