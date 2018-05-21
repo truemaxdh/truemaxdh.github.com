@@ -22,10 +22,6 @@ li .img {
     float : left;
 }
 
-li canvas {
-     margin : 10px;
-}
-
 li .card {
     height: 170px;
     margin-bottom : 15px;
