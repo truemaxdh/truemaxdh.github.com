@@ -4,3 +4,12 @@
 - [Jumping Car](https://truemaxdh.github.io/CodingIsFun/game_hscroll_car/)
 - [Straight-Bouncing Balls](https://truemaxdh.github.io/CodingIsFun/lab_straight-bouncing_balls/)
 - [SimpleGraph.JS](https://truemaxdh.github.io/simpleGraph.js/)
+
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
