@@ -27,6 +27,7 @@
   <body>
 
     <header>
+      {% include advertisements.html %}
       <div class="container">
         <h1>CodingIsFun</h1>
         <h2>coding is fun</h2>
@@ -39,10 +40,10 @@
           <a href="https://github.com/truemaxdh/truemaxdh.github.com" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
         </section>
       </div>
+      {% include advertisements.html %}
     </header>
 
     <div class="container">
-      {% include advertisements.html %}
       <section id="main_content">
         {{ content }}
       </section>
