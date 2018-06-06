@@ -13,7 +13,10 @@
   {% for post in site.posts %}
     <li>
       <div class="card">
-        <a href="{{ post.url }}">{{ post.title }}</a>
+        <h3>{{ post.title }}</h3>
+        <hr>
+        {{ post.excerpt }}
+        <a href="{{ post.url }}">View</a>
       </div>
     </li>
   {% endfor %}
