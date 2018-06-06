@@ -11,10 +11,13 @@
     <li>
       <div class="card">
         <img src="{{ post.thumb }}" align="left" class="img">
-        <h4>{{ post.title }}</h4>
+        <h2>{{ post.title }}</h2>
         <hr>
-        {{ post.excerpt }}
-        <a href="{{ post.url }}">View</a>
+        <p>{{ post.short-description }}</p>
+        <p class="detail">
+          {{ description }}
+          <a href="{{ post.url }}">View</a>
+        </p>
       </div>
     </li>
   {% endfor %}
