@@ -7,9 +7,9 @@ theme: jekyll-theme-architect
 gems:
   - jekyll-mentions
 
-defaults:
-  -
-    scope:
-      path: "" # for all files in projects
-    values:
-      layout: "default"
+#defaults:
+#  -
+#    scope:
+#      path: "" # for all files in projects
+#    values:
+#      layout: "default"
