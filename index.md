@@ -15,7 +15,7 @@
         <hr>
         <p>{{ post.short-description }}</p>
         <p class="detail">
-          {{ post.description }}
+          {{ post.description }}<br>
           <a class="cta" href="{{ post.url }}">View</a>
         </p>
       </div>
