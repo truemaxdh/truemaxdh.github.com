@@ -18,15 +18,4 @@
       </div>
     </li>
   {% endfor %}
-  {% for page in site.pages %}
-    <li>
-      <div class="card">
-        <img src="{{ page.thumb }}" align="left" class="img">
-        <h3>{{ page.title }}</h3>
-        <hr>
-        {{ page.excerpt }}
-        <a href="{{ page.url }}">View</a>
-      </div>
-    </li>
-  {% endfor %}
 </ul>
