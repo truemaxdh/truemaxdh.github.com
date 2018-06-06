@@ -10,6 +10,7 @@
   {% for post in site.posts %}
     <li>
       <div class="card">
+        <img src="{{ post.thumb }}" align="left" class="img">
         <h3>{{ post.title }}</h3>
         <hr>
         {{ post.excerpt }}
