@@ -7,9 +7,6 @@
 
 
 <ul>
-  <li>
-    {% include advertisements.html %}
-  </li>
   {% for post in site.posts %}
     <li>
       <div class="card">
