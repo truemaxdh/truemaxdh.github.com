@@ -11,7 +11,7 @@
     <li>
       <div class="card">
         <img src="{{ post.thumb }}" align="left" class="img">
-        <h3>{{ post.title }}</h3>
+        <h4>{{ post.title }}</h4>
         <hr>
         {{ post.excerpt }}
         <a href="{{ post.url }}">View</a>
