@@ -29,8 +29,8 @@ li .card {
 }
 
 #main-content .card h3:before {
-    //padding-right: 0.3em;
-    //margin-left: -1.5em;
+    padding-right: 0em;
+    margin-left: 0em;
     content: "";
     //color: #9ddcff;
 }
