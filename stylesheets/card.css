@@ -28,7 +28,7 @@ li .card {
     overflow: hidden;
 }
 
-.card h3:before {
+#main-content .card h3:before {
     //padding-right: 0.3em;
     //margin-left: -1.5em;
     content: "";
