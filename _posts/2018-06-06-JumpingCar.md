@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Jumping Car
 thumb: /512x512.png
 short-description : Simple game to avoid obstacles through jumping
