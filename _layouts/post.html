@@ -47,8 +47,11 @@
     <div id="content-wrapper">
       <div class="inner clearfix">
         <section id="main-content">
-          {{ content }}
-          <a href="/index.html" class="cta">Back</a>
+          <div>
+            {{ content }}
+          </div>
+          <p>nbsp;</p>
+          <a href="/index.html">Home</a>
           <ul>
             {% for post in site.posts %}
               <li>
