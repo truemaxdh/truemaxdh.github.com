@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Bouncing balls on the wall
 thumb: /512x512.png
 short-description : A simple CSS animation test
