@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: http://truemaxdh.github.io/sitemap.xml
