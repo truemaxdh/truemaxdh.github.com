@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: SimpleGraph.JS
 thumb: /pie.png
 short-description : A Javascript Graph Utility
