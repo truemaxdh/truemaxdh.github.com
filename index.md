@@ -1,4 +1,3 @@
-{% @test_var = "12345" %}
 ### AppList
 <ul>
   {% for post in site.posts %}
