@@ -24,6 +24,9 @@
       function openPopupHor(url) {
         window.open(url, 'popup', 'width=800, height=450');
       }
+      try {
+        console.log("{%= @test_var %}");
+      } catch(err) {}
     </script>
     
   </head>
