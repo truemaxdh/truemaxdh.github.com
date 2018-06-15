@@ -1,5 +1,5 @@
 {%
-@test_var = "12345"
+@test_var = "12345";
 %}
 ### AppList
 <ul>
