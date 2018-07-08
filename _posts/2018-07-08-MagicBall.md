@@ -15,5 +15,5 @@ description : Simple arcade game. Shoot and Divide Balls. When you hit a ball, i
   it splits into two smaller balls, <br>
   eventually disappearing.<br>
 
-  <a href="#" class="cta" onclick="openPopup('https://truemaxdh.github.io/CodingIsFun/game_magic_bouncing_ball/');">Play</a>
+  <a href="#" class="cta" onclick="openPopupHor('https://truemaxdh.github.io/CodingIsFun/game_magic_bouncing_ball/');">Play</a>
 </p>
