@@ -8,7 +8,7 @@ description : Simple arcade game. Shoot and Divide Balls. When you hit a ball, i
 <img src="https://truemaxdh.github.io/CodingIsFun/game_magic_bouncing_ball/icon.png" align="left" class="img">
 <h3>Magic Ball</h3>
 <hr>
-<p>Shoot and Divide Balls</p>
+<p>Under Developing. Shoot and Divide Balls</p>
 <p class="detail">
   imple arcade game. Shoot and Divide Balls. <br>
   When you hit a ball, <br>
