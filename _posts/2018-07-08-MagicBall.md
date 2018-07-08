@@ -10,7 +10,7 @@ description : Simple arcade game. Shoot and Divide Balls. When you hit a ball, i
 <hr>
 <p>Under Developing. Shoot and Divide Balls</p>
 <p class="detail">
-  imple arcade game. Shoot and Divide Balls. <br>
+  Simple arcade game. Shoot and Divide Balls. <br>
   When you hit a ball, <br>
   it splits into two smaller balls, <br>
   eventually disappearing.<br>
