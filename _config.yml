@@ -3,6 +3,7 @@ description: Works created with HTML, javascript, css and C++ including Games(pu
 google_analytics: true
 show_downloads: false
 theme: jekyll-theme-architect
+author: truemaxdh
 
 gems:
   - jekyll-mentions
