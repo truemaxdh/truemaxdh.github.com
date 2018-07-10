@@ -1,4 +1,4 @@
-### AppList
+<h3>AppList</h3>
 <ul>
   {% for post in site.posts %}
     <li>
