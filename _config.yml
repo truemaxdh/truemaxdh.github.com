@@ -4,6 +4,7 @@ google_analytics: true
 show_downloads: false
 theme: jekyll-theme-architect
 author: truemaxdh
+publisher: github.io
 
 gems:
   - jekyll-mentions
