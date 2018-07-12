@@ -1,3 +1,4 @@
 # truemaxdh.github.com
-truemaxdh's exhibition portal.
-He is an experienced developer fluent in C#, C++, Java, HTML/Javascript, Computer Vision.
+truemaxdh's works of coding.
+Here are shown his personal works.
+He is a developer of C #, C ++, Java, HTML / Javascript and Computer Vision.
