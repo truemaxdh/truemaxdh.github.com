@@ -12,5 +12,5 @@ description : CSS-oriented animation, not Javascript-oriented
 <p class="detail">
   CSS-oriented animation, not Javascript-oriented.<br>
   <a href="#" class="cta" 
-    onclick="window.open('https://truemaxdh.github.io/CodingIsFun/lab_straight-bouncing_balls/', 'popup', 'width=950, height=1000');">View</a>
+    onclick="window.open('https://truemaxdh.github.io/EnjoyCoding/lab_straight-bouncing_balls/', 'popup', 'width=950, height=1000');">View</a>
 </p>
