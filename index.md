@@ -15,3 +15,7 @@
     </li>
   {% endfor %}
 </ul>
+<h3>About</h3>
+<p>truemaxdh's works of coding.</p>
+<p>Here are shown some his personal works.</p>
+<p>He is a developer of C #, C ++, Java, HTML / Javascript and Computer Vision.</p>
