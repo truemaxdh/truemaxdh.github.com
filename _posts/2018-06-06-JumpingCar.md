@@ -11,5 +11,5 @@ description : CSS-oriented game, not Javascript-oriented. Currently under develo
 <p>Simple game to avoid obstacles through jumping</p>
 <p class="detail">
   CSS-oriented game, not Javascript-oriented. Currently under development.<br>
-  <a href="#" class="cta" onclick="openPopupHor('https://truemaxdh.github.io/CodingIsFun/game_hscroll_car/');">Play</a>
+  <a href="#" class="cta" onclick="openPopupHor('https://truemaxdh.github.io/EnjoyCoding/game_hscroll_car/');">Play</a>
 </p>
