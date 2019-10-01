@@ -26,7 +26,7 @@
               alert(list.length);
               var board = document.getElementById("contents");
               for (var i = 0; i < list.length; i++) {
-                board.innerHtml += "<p>" + list[i].Title + list[i].Desc + "</p>";
+                board.innerHTML += "<p>" + list[i].Title + list[i].Desc + "</p>";
               }
             } else {
               alert("failed to load data");
