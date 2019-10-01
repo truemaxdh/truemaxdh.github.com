@@ -14,8 +14,10 @@
     <script>
       //
       window.onload = function() {
+        alert("A");
         var xhttp = new XMLHttpRequest();
         xhttp.onreadystatechange = function() {
+          console.log(this.readState);
           if (this.readState == 4) {
             if (this.status == 200) {
               // SUCCESS
