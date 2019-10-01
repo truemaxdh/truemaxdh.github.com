@@ -1,7 +1,7 @@
 {"AppList":[
   {"Title":"Crayon Pentix - free Puzzle game",
    "Thumb":"https://truemaxdh.github.io/EnjoyCoding/game_pentix/512x512.png",
-   "Short-Desc":"Crayon Pentix is a Block Drop Game",
+   "ShortDesc":"Crayon Pentix is a Block Drop Game",
    "Desc":"A block of five tiles is called a pentomino. Pentix is a game of falling pentomino. Crayon Pentix is web and android version of pentix game. When you rotate this block and stack it up and fill one row tightly, the line disappears and the score goes up. It is a game that competes to see who gets rid of more lines.",
    "Play":"https://truemaxdh.github.io/EnjoyCoding/game_pentix/www/",
    "Android":"https://play.google.com/store/apps/details?id=com.pgmaru.SimplePentix"
