@@ -22,7 +22,7 @@
             if (this.status == 200) {
               // SUCCESS
               var json = this.responseText;
-              var list = JSON.parse(json);
+              var list = JSON.parse(json).AppList;
               alert(list.length);
               var board = document.getElementById("contents");
               for (var i = 0; i < list.length; i++) {
