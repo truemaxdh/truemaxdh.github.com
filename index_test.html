@@ -26,7 +26,12 @@
               alert(list.length);
               var board = document.getElementById("contents");
               for (var i = 0; i < list.length; i++) {
-                board.innerHTML += "<p>" + list[i].Title + list[i].Desc + "</p>";
+                board.innerHTML += "<p>" + list[i].Title + "</p>";
+                board.innerHTML += "<p>" + list[i].Thumb + "</p>";
+                board.innerHTML += "<p>" + list[i].ShortDesc + "</p>";
+                board.innerHTML += "<p>" + list[i].Desc + "</p>";
+                board.innerHTML += "<p>" + list[i].Play + "</p>";
+                board.innerHTML += "<p>" + list[i].Android + "</p>";
               }
             } else {
               alert("failed to load data");
