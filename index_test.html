@@ -1,22 +1,38 @@
-{% seo %}
-<h3>AppList</h3>
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <div class="card">
-        <img src="{{ post.thumb }}" align="left" class="img">
-        <h3>{{ post.title }}</h3>
-        <hr>
-        <p>{{ post.short-description }}</p>
-        <p class="detail">
-          {{ post.description }}<br>
-          <a class="cta" href="{{ post.url }}">View</a>
-        </p>
-      </div>
-    </li>
-  {% endfor %}
-</ul>
-<h3>About</h3>
-<p>truemaxdh's works of coding.</p>
-<p>Here are shown some his personal works.</p>
-<p>He is a developer of C #, C ++, Java, HTML / Javascript and Computer Vision.</p>
+<html>
+  <head>
+    <title>EnjoyCoding</title>
+    <style>
+      .card {
+        float : left;
+        margin : 5px;
+        padding : 10px;	
+        border-radius : 20px;
+        border : 2px solid #73AD21;
+        width : 200px;
+        word-wrap : break-word;
+      }
+    <script>
+      //
+      window.onload = function() {
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+          if (this.readState == 4) {
+            if (this.status == 200) {
+              // SUCCESS
+              var json = this.responseText;
+              console.log(json);
+            } else {
+              alert("failed to load data");
+            }
+          }
+        }
+        xhttp.open("GET", "AppList.json", true);
+        xhttp.send();
+      }
+    </script>
+  </head>
+  <body>
+    <div id="contents">
+    </div>
+  </body>
+</html>
