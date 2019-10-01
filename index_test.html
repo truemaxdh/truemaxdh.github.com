@@ -15,7 +15,6 @@
     <script>
       //
       window.onload = function() {
-        alert("A");
         var xhttp = new XMLHttpRequest();
         xhttp.onreadystatechange = function() {
           console.log(this.readyState);
@@ -23,7 +22,12 @@
             if (this.status == 200) {
               // SUCCESS
               var json = this.responseText;
-              console.log(json);
+              var list = JSON.parse(json);
+              alert(list.length);
+              var board = document.getElementById("contents");
+              for (var i = 0; i < list.length; i++) {
+                board.innerHtml += "<p>" + list[i].Title + list[i].Desc + "</p>";
+              }
             } else {
               alert("failed to load data");
             }
