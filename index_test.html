@@ -21,23 +21,21 @@
       window.onload = function() {
         var xhttp = new XMLHttpRequest();
         xhttp.onreadystatechange = function() {
-          console.log(this.readyState);
           if (this.readyState == 4) {
             if (this.status == 200) {
               // SUCCESS
               var json = this.responseText;
               var list = JSON.parse(json).AppList;
-              alert(list.length);
               var board = document.getElementById("contents");
               for (var i = 0; i < list.length; i++) {
-                board.innerHTML += "<div class='card'>";
-                board.innerHTML += "<p class='Title'>" + list[i].Title + "</p>";
-                board.innerHTML += "<img class='Thumb' src='" + list[i].Thumb + "'>";
-                board.innerHTML += "<p class='ShortDesc'>" + list[i].ShortDesc + "</p>";
-                board.innerHTML += "<p class='Desc'>" + list[i].Desc + "</p>";
-                board.innerHTML += "<p class='Play'>" + list[i].Play + "</p>";
-                board.innerHTML += "<p class=''Android'>" + list[i].Android + "</p>";
-                board.innerHTML += "</div>";
+                board.innerHTML += "<div class='card'>" +
+                  "<p class='Title'>" + list[i].Title + "</p>" +
+                  "<img class='Thumb' src='" + list[i].Thumb + "'>" +
+                  "<p class='ShortDesc'>" + list[i].ShortDesc + "</p>" +
+                  "<p class='Desc'>" + list[i].Desc + "</p>" +
+                  "<p class='Play'>" + list[i].Play + "</p>" +
+                  "<p class=''Android'>" + list[i].Android + "</p>" +
+                  "</div>";
               }
             } else {
               alert("failed to load data");
