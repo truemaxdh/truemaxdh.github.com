@@ -1,0 +1,17 @@
+.title {
+  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+  font-size: 30px;
+}
+.card {
+  float : left;
+  margin : 5px;
+  padding : 10px;	
+  border-radius : 20px;
+  border : 2px solid #73AD21;
+  width : 200px;
+  word-wrap : break-word;
+}
+.card .thumb {
+  width:100px;
+  height:100px;
+}
