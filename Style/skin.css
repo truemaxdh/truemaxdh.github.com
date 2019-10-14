@@ -18,3 +18,11 @@ h1 {
   width:100px;
   height:100px;
 }
+
+.bigCircle {
+  width:200px;
+  height:200px;
+  border:1px solid #73AD21;
+  word-wrap:break-word;
+  border-radius:100px;
+}
