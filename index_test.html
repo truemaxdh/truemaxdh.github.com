@@ -27,8 +27,8 @@
               }*/
               for (var i = 0; i < appList.length; i++) {
                 var gnre = appList[i].genre;
-                if (genres.find(function(el) {return el==genre;}) == undefined) {
-                  genres.push(genre);
+                if (genres.find(function(el) {return el==gnre;}) == undefined) {
+                  genres.push(gnre);
                 }
               }
               openGenres();
