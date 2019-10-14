@@ -3,6 +3,8 @@
     <title>MyCoding</title>
     <link rel="stylesheet" href="/Style/skin.css">
     <script>
+      var genres = [];
+      var appList = [];
       //
       window.onload = function() {
         var xhttp = new XMLHttpRequest();
@@ -11,18 +13,25 @@
             if (this.status == 200) {
               // SUCCESS
               var json = this.responseText;
-              var list = JSON.parse(json).AppList;
-              var board = document.getElementById("contents");
-              for (var i = 0; i < list.length; i++) {
+              appList = JSON.parse(json).AppList;
+              /*var board = document.getElementById("contents");
+              for (var i = 0; i < appList.length; i++) {
                 board.innerHTML += "<div class='card'>" +
-                  "<p class='Title'>" + list[i].Title + "</p>" +
-                  "<img class='Thumb' src='" + list[i].Thumb + "'>" +
-                  "<p class='ShortDesc'>" + list[i].ShortDesc + "</p>" +
-                  "<p class='Desc'>" + list[i].Desc + "</p>" +
-                  "<a class='Play' href='" + list[i].Play + "'></a>" +
-                  "<a class='Android' href='" + list[i].Android + "</p>" +
+                  "<p class='Title'>" + appList[i].Title + "</p>" +
+                  "<img class='Thumb' src='" + appList[i].Thumb + "'>" +
+                  "<p class='ShortDesc'>" + appList[i].ShortDesc + "</p>" +
+                  "<p class='Desc'>" + appList[i].Desc + "</p>" +
+                  "<a class='Play' href='" + appList[i].Play + "'></a>" +
+                  "<a class='Android' href='" + appList[i].Android + "</p>" +
                   "</div>";
+              }*/
+              for (var i = 0; i < appList.length; i++) {
+                var gnre = appList[i].genre;
+                if (genres.find(function(el) {return el==genre;}) == undefined) {
+                  genres.push(genre);
+                }
               }
+              openGenres();
             } else {
               alert("failed to load data");
             }
@@ -31,6 +40,15 @@
         xhttp.open("GET", "/contents/AppList.json", true);
         xhttp.send();
       }
+      function openGenres() {
+        var board = document.getElementById("contents");
+        for (var i = 0; i < genres.length; i++) {
+          var crcl = document.createElement("div");
+          crcl.class = "bigCircle";
+          crcl.innerHTML = genres[i];
+          board.appendChild(crcl);
+        }
+      }      
     </script>
   </head>
   <body>
