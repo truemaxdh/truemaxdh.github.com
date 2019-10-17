@@ -46,14 +46,30 @@
           var crcl = document.createElement("div");
           crcl.className = "bigCircle";
           crcl.innerHTML = genres[i];
+          crcl.onclick="openCategory('" + genres[i] + "');";
           board.appendChild(crcl);
         }
-      }      
+      }
+      function openCategory(_gnre) {
+        var board = document.getElementById("list");
+        var html = "";
+        for (var i = 0; i < appList.length; i++) {
+          if (_gnre == appList[i].Genre) {
+            var crcl = document.createElement("div");
+            crcl.className = "circle";
+            crcl.innerHTML = appList[i].Title;
+            crcl.style.backgroundImage = "url('" + appList[i].Thumb + "');
+            crcl.onclick="window.open('" + appList[i].Play + "');";
+            board.appendChild(crcl);
+          }
+        }
+      }
     </script>
   </head>
   <body>
     <h1>MyCoding</h1>
-    <div id="contents">
-    </div>
+    <br>
+    <div id="contents"></div>
+    <div id="list"></div>
   </body>
 </html>
