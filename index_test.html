@@ -52,6 +52,7 @@
       }
       function openCategory(_gnre) {
         var board = document.getElementById("list");
+        board.innerHTML = "";
         for (var i = 0; i < appList.length; i++) {
           if (_gnre == appList[i].Genre) {
             var crcl = document.createElement("div");
