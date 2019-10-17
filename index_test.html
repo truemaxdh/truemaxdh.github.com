@@ -46,7 +46,7 @@
           var crcl = document.createElement("div");
           crcl.className = "bigCircle";
           crcl.innerHTML = genres[i];
-          crcl.onclick="openCategory('" + genres[i] + "');";
+          crcl.onclick=function() {openCategory(genres[i]);}
           board.appendChild(crcl);
         }
       }
@@ -59,7 +59,7 @@
             crcl.className = "circle";
             crcl.innerHTML = appList[i].Title;
             crcl.style.backgroundImage = "url('" + appList[i].Thumb + "')";
-            crcl.onclick="window.open('" + appList[i].Play + "');";
+            crcl.onclick=function() {window.open(appList[i].Play);}
             board.appendChild(crcl);
           }
         }
