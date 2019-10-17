@@ -47,13 +47,14 @@ h1 {
   height:150px;
   line-height:150px;
   text-align:center;
-  font-size:50px;
-  color:#73AD21;
+  font-size:14px;
+  color:black;
   font-weight:bold;
   float:left;
-  border:1px solid #73AD21;
+  border:1px solid black;
   word-wrap:break-word;
-  border-radius:150px;
+  border-radius:75px;
   margin:15px;
   cursor:pointer;
+  background-position:center;
 }
