@@ -4,6 +4,11 @@ h1 {
   -webkit-text-stroke:1px #000;
   -webkit-text-fill-color:transparent;
 }
+
+p {
+  clear : both;
+}
+
 .card {
   float : left;
   margin : 5px;
@@ -33,7 +38,7 @@ h1 {
   border:1px solid #73AD21;
   word-wrap:break-word;
   border-radius:150px;
-  margin:15px;
+  margin:10px;
   cursor:pointer;
 }
 
@@ -54,7 +59,7 @@ h1 {
   border:1px solid black;
   word-wrap:break-word;
   border-radius:75px;
-  margin:15px;
+  margin:5px;
   cursor:pointer;
   background-position:center;
   background-size:100% 100%;
