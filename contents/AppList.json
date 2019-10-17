@@ -14,5 +14,13 @@
    "Desc":"A Javascript Graph Utility for Line Graph, Pie Graph, etc.",
    "Demo":"https://truemaxdh.github.io/simpleGraph.js/",
    "Github":"https://github.com/truemaxdh/simpleGraph.js"
+  },
+  {"Title":"WaysToDrawTree",
+   "Genre":"Art",
+   "Thumb":"https://truemaxdh.github.io/tree.png",
+   "ShortDesc":"various ways to draw a tree in HTML5",
+   "Desc":"Shows how to draw a tree in various ways in HTML5.",
+   "Demo":"https://truemaxdh.github.io/WaysToDrawTree/",
+   "Github":"https://github.com/truemaxdh/WaysToDrawTree"
   }
 ]}
