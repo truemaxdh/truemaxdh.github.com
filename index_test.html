@@ -50,10 +50,9 @@
           crcl.innerHTML = genres[i];
           crcl.onclick=function() {openCategory(this.innerHTML);}
           board.appendChild(crcl);
-          console.log(crcl.style.width);
         }
         var wrap = document.getElementById("wrapper");
-        wrap.style.width = (genres.length * 310) + "px";
+        wrap.style.width = (genres.length * 310 + 20) + "px";
       }
       
       function openCategory(_gnre) {
