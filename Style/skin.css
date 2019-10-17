@@ -1,5 +1,5 @@
 h1 {
-  font-size: 25px;
+  font-size: 23px;
   font-weight:bold;
   -webkit-text-stroke:1px #000;
   -webkit-text-fill-color:transparent;
@@ -34,6 +34,7 @@ h1 {
   word-wrap:break-word;
   border-radius:150px;
   margin:15px;
+  cursor:pointer;
 }
 
 .bigCircle:hover {
