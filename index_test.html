@@ -40,16 +40,22 @@
         xhttp.open("GET", "/contents/AppList.json", true);
         xhttp.send();
       }
+      
       function openGenres() {
         var board = document.getElementById("contents");
+        var crcl_w = 0;
         for (var i = 0; i < genres.length; i++) {
           var crcl = document.createElement("div");
           crcl.className = "bigCircle";
           crcl.innerHTML = genres[i];
           crcl.onclick=function() {openCategory(this.innerHTML);}
           board.appendChild(crcl);
+          console.log(crcl.style.width);
         }
+        var wrap = document.getElementById("wrapper");
+        wrap.style.width = (genres.length * 310) + "px";
       }
+      
       function openCategory(_gnre) {
         var board = document.getElementById("list");
         board.innerHTML = "";
@@ -68,11 +74,13 @@
     </script>
   </head>
   <body>
-    <center><h1>MyCoding</h1></center>
-    <center><hr></center>
-    <br>
-    <div id="contents"></div>
-    <br>
-    <div id="list"></div>
+    <div id="wrapper">
+      <center><h1>MyCoding</h1></center>
+      <center><hr></center>
+      <p>&nbsp;</p>
+      <div id="contents"></div>
+      <p>&nbsp;</p>
+      <div id="list"></div>
+    </div>
   </body>
 </html>
