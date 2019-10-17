@@ -52,14 +52,14 @@
       }
       function openCategory(_gnre) {
         var board = document.getElementById("list");
-        var html = "";
         for (var i = 0; i < appList.length; i++) {
           if (_gnre == appList[i].Genre) {
             var crcl = document.createElement("div");
             crcl.className = "circle";
             crcl.innerHTML = appList[i].Title;
             crcl.style.backgroundImage = "url('" + appList[i].Thumb + "')";
-            crcl.onclick=function() {window.open(appList[i].Play);}
+            var tmp = "window.open('" + appList[i].Play + "');";
+            crcl.onclick=function() {eval(tmp)}
             board.appendChild(crcl);
           }
         }
