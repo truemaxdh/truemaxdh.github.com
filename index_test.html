@@ -31,7 +31,7 @@
                   genres.push(gnre);
                 }
               }
-              openGenres();
+              showGenres();
             } else {
               alert("failed to load data");
             }
@@ -41,21 +41,21 @@
         xhttp.send();
       }
       
-      function openGenres() {
+      function showGenres() {
         var board = document.getElementById("contents");
         var crcl_w = 0;
         for (var i = 0; i < genres.length; i++) {
           var crcl = document.createElement("div");
           crcl.className = "bigCircle";
           crcl.innerHTML = genres[i];
-          crcl.onclick=function() {openCategory(this.innerHTML);}
+          crcl.onclick=function() {openGenre(this.innerHTML);}
           board.appendChild(crcl);
         }
         var wrap = document.getElementById("wrapper");
         wrap.style.width = (genres.length * 322) + "px";
       }
       
-      function openCategory(_gnre) {
+      function openGenre(_gnre) {
         var board = document.getElementById("list");
         board.innerHTML = "";
         for (var i = 0; i < appList.length; i++) {
@@ -63,7 +63,7 @@
             var crcl = document.createElement("div");
             crcl.className = "circle";
             crcl.innerHTML = appList[i].Title;
-            crcl.style.backgroundImage = "url('" + appList[i].Thumb + "')";
+            //crcl.style.backgroundImage = "url('" + appList[i].Thumb + "')";
             var tmp = "window.open('" + appList[i].Play + "');";
             crcl.onclick=function() {eval(tmp)}
             board.appendChild(crcl);
@@ -82,7 +82,7 @@
       <p>&nbsp;</p>
       <div id="contents"></div>
       <p>&nbsp;</p>
-      <div id="list"></div>
+      &nbsp;&nbsp;&nbsp;<div id="list"></div>
     </div>
   </body>
 </html>
