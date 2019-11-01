@@ -2,16 +2,6 @@ p {
   clear : both;
 }
 
-.card {
-  float : left;
-  margin : 5px;
-  padding : 10px;	
-  border-radius : 20px;
-  border : 2px solid #73AD21;
-  width : 200px;
-  word-wrap : break-word;
-}
-
 .circle {
   width:150px;
   height:150px;
@@ -33,6 +23,12 @@ p {
 .circle:hover {
   background:#73AD21;
   color:white;
+}
+
+.circle p {
+  line-height: 1.5;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .bigCircle {
