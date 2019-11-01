@@ -51,10 +51,11 @@
           if (_gnre == appList[i].Genre) {
             var html = "<div class='circle' onclick=\"window.open('" + appList[i].Play + "');\">";
             html += " <p class='p_mid'>" + appList[i].Title + "</p>";
-            html += "</div></div>";
+            html += "</div>";
             board.innerHTML += html;
           }
         }
+        board.innerHTML += "</div>";
       }
     </script>
   </head>
