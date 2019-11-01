@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
   <head>
     <title>truemaxdh.github.io</title>
@@ -46,16 +47,16 @@
       
       function openGenre(_gnre) {
         var board = document.getElementById("list");
-        board.innerHTML = "<div>";
+        var html = "<div style='display:inline-block;'>";
         for (var i = 0; i < appList.length; i++) {
           if (_gnre == appList[i].Genre) {
-            var html = "<div class='circle' onclick=\"window.open('" + appList[i].Play + "');\">";
+            html += "<div class='circle' onclick=\"window.open('" + appList[i].Play + "');\">";
             html += " <p class='p_mid'>" + appList[i].Title + "</p>";
             html += "</div>";
-            board.innerHTML += html;
           }
         }
-        board.innerHTML += "</div>";
+        html += "</div>";
+        board.innerHTML = html;
       }
     </script>
   </head>
