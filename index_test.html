@@ -1,6 +1,6 @@
 <html>
   <head>
-    <title>MyCoding</title>
+    <title>truemaxdh.github.io</title>
     <link rel="stylesheet" href="/Style/skin.css">
     <script>
       var genres = [];
@@ -53,8 +53,7 @@
             crcl.className = "circle";
             crcl.innerHTML = appList[i].Title;
             //crcl.style.backgroundImage = "url('" + appList[i].Thumb + "')";
-            var tmp = "window.open('" + appList[i].Play + "');";
-            crcl.onclick=function() {alert(tmp);eval(tmp)}
+            crcl.onclick=function() {window.open(eval("'" + appList[i].Play + "'");};
             board.appendChild(crcl);
           }
         }
