@@ -51,12 +51,7 @@
           if (_gnre == appList[i].Genre) {
             var html = "<div class='circle' onclick=\"window.open('" + appList[i].Play + "');\">";
             html += " <p>" + appList[i].Title + "</p>";
-            /*var crcl = document.createElement("div");
-            crcl.className = "circle";
-            crcl.innerHTML = "<p>" + appList[i].Title + "</p>";
-            //crcl.style.backgroundImage = "url('" + appList[i].Thumb + "')";
-            crcl.onclick=window.open(appList[i].Play);
-            board.appendChild(crcl);*/
+            html += "</div>";
             board.innerHTML += html;
           }
         }
