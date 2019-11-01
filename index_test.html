@@ -50,7 +50,7 @@
         for (var i = 0; i < appList.length; i++) {
           if (_gnre == appList[i].Genre) {
             var html = "<div class='circle' onclick=\"window.open('" + appList[i].Play + "');\">";
-            html += " <p>" + appList[i].Title + "</p>";
+            html += " <p class='p_mid'>" + appList[i].Title + "</p>";
             html += "</div>";
             board.innerHTML += html;
           }
