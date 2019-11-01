@@ -25,6 +25,12 @@
   color:white;
 }
 
+.circle p {
+  line-height: 1.5;
+  display:inline-block;
+  vertical-align:middle;
+}
+
 .bigCircle {
   width:300px;
   height:300px;
@@ -44,12 +50,6 @@
 .bigCircle:hover {
   background:#73AD21;
   color:white;
-}
-
-.p_mid {
-  line-height: 1.5;
-  display:inline-block;
-  vertical-align:middle;
 }
 
 #list {
