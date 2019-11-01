@@ -51,7 +51,7 @@
           if (_gnre == appList[i].Genre) {
             var crcl = document.createElement("div");
             crcl.className = "circle";
-            crcl.innerHTML = appList[i].Title;
+            crcl.innerHTML = "<p>" + appList[i].Title + "</p>";
             //crcl.style.backgroundImage = "url('" + appList[i].Thumb + "')";
             crcl.onclick=function() {window.open(eval("'" + appList[i].Play + "'");};
             board.appendChild(crcl);
