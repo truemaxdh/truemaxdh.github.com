@@ -46,12 +46,12 @@
       
       function openGenre(_gnre) {
         var board = document.getElementById("list");
-        board.innerHTML = "";
+        board.innerHTML = "<div>";
         for (var i = 0; i < appList.length; i++) {
           if (_gnre == appList[i].Genre) {
             var html = "<div class='circle' onclick=\"window.open('" + appList[i].Play + "');\">";
             html += " <p class='p_mid'>" + appList[i].Title + "</p>";
-            html += "</div>";
+            html += "</div></div>";
             board.innerHTML += html;
           }
         }
