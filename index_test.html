@@ -51,9 +51,9 @@
           if (_gnre == appList[i].Genre) {
             var crcl = document.createElement("div");
             crcl.className = "circle";
-            crcl.innerHTML = "<p>" + appList[i].Title + "</p>";
+            crcl.innerHTML = "<span>" + appList[i].Title + "</span>";
             //crcl.style.backgroundImage = "url('" + appList[i].Thumb + "')";
-            crcl.onclick=function() {window.open(eval("'" + appList[i].Play + "'"));};
+            crcl.onclick="window.open('" + appList[i].Play + "');";
             board.appendChild(crcl);
           }
         }
