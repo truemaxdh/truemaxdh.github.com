@@ -3,17 +3,17 @@
 }
 
 .circle {
-  width:150px;
-  height:150px;
   line-height:150px;
+  width:150px;
+  height:150px;  
   text-align:center;
   font-size:14px;
   color:#73AD21;
   font-weight:bold;
   float:left;
   border:1px solid #73AD21;
-  word-wrap:break-word;
-  border-radius:75px;
+  /*word-wrap:break-word;*/
+  /*border-radius:75px;*/
   margin:10px;
   cursor:pointer;
   background-position:center;
@@ -27,8 +27,8 @@
 
 .circle p {
   line-height: 1.5;
-  display: inline-block;
-  vertical-align: middle;
+  display:inline-block;
+  vertical-align:middle;
 }
 
 .bigCircle {
