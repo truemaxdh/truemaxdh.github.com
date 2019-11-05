@@ -61,14 +61,22 @@
       
       function openDetail(el, idx) {
         var newEl = document.createElement("div");
-        //document.body.appendChild(newEl);
         document.getElementById("wrapper").appendChild(newEl);
         newEl.className = el.className;
         newEl.style.position = "fixed";
         newEl.style.left = el.offsetLeft + "px";
         newEl.style.top = el.offsetTop + "px";
+        newEl.style.margin = "0";
+        newEl.style.transition = "0.5s";
         newEl.innerHTML = "<p>" + el.offsetLeft + "," + el.offsetTop + "</p>";
         newEl.innerHTML += "<p>" + newEl.offsetLeft + "," + newEl.offsetTop + "</p>";
+        setTimeout(
+          function(){ 
+            newEl.style.left = "0";
+            newEl.style.top = "0";
+            newEl.style.width = "100%";
+            newEl.style.height = "100%";
+          }, 100);
       }
     </script>
   </head>
