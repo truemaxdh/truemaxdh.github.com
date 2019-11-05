@@ -62,12 +62,12 @@
       function openDetail(el, idx) {
         var newEl = document.createElement("div");
         document.body.appendChild(newEl);
+        newEl.style.position = "fixed";
+        newEl.style.left = el.offsetLeft;
+        newEl.style.top = el.offsetTop;
         newEl.innerHTML = "<p>" + el.offsetLeft + "," + el.offsetTop + "</p>";
         newEl.innerHTML += "<p>" + newEl.offsetLeft + "," + newEl.offsetTop + "</p>";
         //newEl.className = el.className;
-        newEl.style.position = "fixed";
-        newEl.offsetLeft = el.offsetLeft;
-        newEl.offsetTop = el.offsetTop;
         
       }
     </script>
