@@ -61,13 +61,14 @@
       
       function openDetail(el, idx) {
         var newEl = document.createElement("div");
-        newEl.className = el.className;
+        document.body.appendChild(newEl);
+        newEl.innerHTML = "<p>" + el.offsetLeft + "," + el.offsetTop + "</p>";
+        newEl.innerHTML += "<p>" + newEl.offsetLeft + "," + newEl.offsetTop + "</p>";
+        //newEl.className = el.className;
         newEl.style.position = "fixed";
         newEl.offsetLeft = el.offsetLeft;
         newEl.offsetTop = el.offsetTop;
-        document.getElementById("wrapper").appendChild(newEl);
-        newEl.innerHTML = "<p>" + el.offsetLeft + "," + el.offsetTop + "</p>";
-        newEl.innerHTML += "<p>" + newEl.offsetLeft + "," + newEl.offsetTop + "</p>";
+        
       }
     </script>
   </head>
