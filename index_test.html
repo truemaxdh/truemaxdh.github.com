@@ -60,9 +60,10 @@
       }
       
       var newEl;
-      var pnCont = document.getElementById("contents")
+      var pnCont;
       function openDetail(el, idx) {
         newEl = document.createElement("div");
+        pnCont = document.getElementById("pannel")
         pnCont.appendChild(newEl);
         newEl.className = el.className;
         newEl.style.position = "fixed";
@@ -93,8 +94,9 @@
         <a href="https://github.com/truemaxdh">GitHub</a>
         <hr>
       </font>
-      <p>&nbsp;</p>
-      <div id="contents">
+      <div id="pannel">
+        <p>&nbsp;</p>
+        <div id="contents"></div>
         <p>&nbsp;</p>
         <div id="list"></div>
       </div>
