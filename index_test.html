@@ -90,11 +90,11 @@
             html += appList[idx].ShortDesc + "<br>";
             html += appList[idx].Desc + "<br>";
             if (appList[idx].Play)
-              html += "<a onclick='window.open('" + appList[idx].Play + "');'>Play</a><br>";
+              html += "<a onclick=\"window.open('" + appList[idx].Play + "');\">Play</a><br>";
             if (appList[idx].Android)
-              html += "<a onclick='window.open('" + appList[idx].Android + "');'>Android</a><br>";
+              html += "<a onclick=\"window.open('" + appList[idx].Android + "');\">Android</a><br>";
             if (appList[idx].GitHub)
-              html += "<a onclick='window.open('" + appList[idx].GitHub + "');'>GitHub</a><br>";
+              html += "<a onclick=\"window.open('" + appList[idx].GitHub + "');\">GitHub</a><br>";
             
             html += "<a onclick='closeDetail(" + idx + ");'>Close</a></p>";
             newEl.innerHTML = html;
