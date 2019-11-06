@@ -86,7 +86,7 @@
             html += appList[idx].ShortDesc + "<br>";
             html += appList[idx].Desc + "<br>";
             html += appList[idx].Play + "<br>";
-            html += "<a onclick='closeDetail(pnCont.removeChild(newEl);'>Close</a></p>";
+            html += "<a onclick='closeDetail(idx);'>Close</a></p>";
             newEl.innerHTML = html;
           }, 1100);
       }
