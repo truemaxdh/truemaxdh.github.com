@@ -50,7 +50,7 @@
         var html = "<div style='display:inline-block;'>";
         for (var i = 0; i < appList.length; i++) {
           if (_gnre == appList[i].Genre) {
-            html += "<div class='circle' onclick=\"openDetail(this, " + i + ");\">";
+            html += "<div class='square' onclick=\"openDetail(this, " + i + ");\">";
             html += " <p class='p_mid'>" + appList[i].Title + "</p>";
             html += "</div>";
           }
@@ -71,12 +71,12 @@
         newEl.style.top = el.offsetTop + "px";
         newEl.style.margin = "0";
         newEl.style.transition = "1s";
-        newEl.innerHTML = appList[idx].Title + "<br>";
-        newEl.innerHTML += appList[idx].Genre + "<br>";
-        newEl.innerHTML += appList[idx].ShortDesc + "<br>";
-        newEl.innerHTML += appList[idx].Desc + "<br>";
-        newEl.innerHTML += appList[idx].Play + "<br>";
-        newEl.innerHTML += "<a onclick='pnCont.removeChild(newEl);'>Close</a>";
+        newEl.innerHTML = "<p>" + appList[idx].Title + "</p>";
+        newEl.innerHTML += "<p>" + appList[idx].Genre + "</p>";
+        newEl.innerHTML += "<p>" + appList[idx].ShortDesc + "</p>";
+        newEl.innerHTML += "<p>" + appList[idx].Desc + "</p>";
+        newEl.innerHTML += "<p>" + appList[idx].Play + "</p>";
+        newEl.innerHTML += "<p><a onclick='pnCont.removeChild(newEl);'>Close</a></p>";
         setTimeout(
           function(){ 
             newEl.style.left = pnCont.offsetLeft + "px";
