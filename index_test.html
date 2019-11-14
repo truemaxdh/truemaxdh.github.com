@@ -69,6 +69,7 @@
         newEl.style.left = el.offsetLeft + "px";
         newEl.style.top = el.offsetTop + "px";
         newEl.style.margin = "0";
+        newEl.style.textAlign = "left";
         newEl.style.transition = "1s";
 
         selEl = el;
@@ -84,17 +85,18 @@
             newEl.style.height = pnCont.offsetHeight + "px";
           }, 100);
         setTimeout(
-          function(){ 
-            var html = "<p class='p_mid'>" + appList[idx].Title + "<br>";
-            html += appList[idx].Genre + "<br>";
-            html += appList[idx].ShortDesc + "<br>";
-            html += appList[idx].Desc + "<br>";
-            if (appList[idx].Play)
-              html += "<a onclick=\"window.open('" + appList[idx].Play + "');\">Play</a><br>";
-            if (appList[idx].Android)
-              html += "<a onclick=\"window.open('" + appList[idx].Android + "');\">Android</a><br>";
-            if (appList[idx].GitHub)
-              html += "<a onclick=\"window.open('" + appList[idx].GitHub + "');\">GitHub</a><br>";
+          function(){
+            var app = appList[idx];
+            var html = "<h3>[" + app.Genre + "]" + app.Title + "</h3>";
+            html += "<hr>";
+            html += "<p>" + app.ShortDesc + "</p>";
+            html += "<p>" + app.Desc + "</p>";
+            if (app.Play)
+              html += "<a onclick=\"window.open('" + app.Play + "');\">Play</a><br>";
+            if (app.Android)
+              html += "<a onclick=\"window.open('" + app.Android + "');\">Android</a><br>";
+            if (app.GitHub)
+              html += "<a onclick=\"window.open('" + app.GitHub + "');\">GitHub</a><br>";
             
             html += "<a onclick='closeDetail(" + idx + ");'>Close</a></p>";
             newEl.innerHTML = html;
