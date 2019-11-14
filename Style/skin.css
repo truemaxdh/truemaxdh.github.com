@@ -67,13 +67,13 @@
 }
 
 .popDetail .title {
-  font-size:16px;
+  font-size:20px;
   font-weight:bold;
   text-decoration:underline;
 }
 
 .popDetail .shortDesc {
-  font-size:11px;
+  font-size:12px;
 }
 
 .popDetail .Desc {
@@ -82,15 +82,16 @@
 .popDetail .btn {
   width:150px;
   height:50px;
+  font-size:16px;
   font-weight:bold;
-  border: 1px solid #73AD21;
+  border: 3px solid white;
   border-radius: 5px;
-  margin:5px;
+  margin-right:15px;
   cursor:pointer;
 }
 
 .popDetail .close {
-  font-size:13px;
   font-weight:bold;
   text-decoration:underline;
+  cursor:pointer;
 }
