@@ -88,7 +88,7 @@
         setTimeout(
           function(){
             dtlEl.style.transition = "0s";
-          }, 1500);
+          }, 1200);
         setTimeout(
           function(){           
             dtlEl.className = "popDetail";
@@ -108,8 +108,11 @@
             html += "<p class='close'><a onclick='closeDetail(" + idx + ");'>Close</a></p>";
             html += "</div>";
             dtlEl.innerHTML = html;
-            //dtlEl.style.transition = "1s";
-          }, 2000);
+          }, 1300);
+        setTimeout(
+          function(){
+            dtlEl.style.transition = "1s";
+          }, 1400);
       }
       
       function closeDetail(idx) {
