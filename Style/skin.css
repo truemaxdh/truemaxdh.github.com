@@ -61,26 +61,28 @@
 .popDetail {
   color:white;
   border:1px solid #73AD21;
-  margin:0px;
   background:#73AD21;
-  padding:10px;
 }
 
 .popDetail .title {
+  margin-left:10px;
   font-size:35px;
   font-weight:900;
   text-decoration:underline;
 }
 
 .popDetail .shortDesc {
+  margin-left:10px;
 }
 
 .popDetail .desc {
+  margin-left:10px;
   font-size:16px;
   font-weight:bolder;
 }
 
 .popDetail .btnTrail {
+  margin-left:10px;
   position:absolute;
   bottom:80px;
 }
@@ -97,8 +99,8 @@
 
 .popDetail .close {
   position:absolute;
-  bottom:0px;
-  right:10px;
+  bottom:10px;
+  right:20px;
   font-size:20px;
   font-weight:bold;
   color:#73AD21;
