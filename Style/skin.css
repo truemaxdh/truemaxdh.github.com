@@ -88,10 +88,12 @@
 }
 
 .popDetail .btnTrail .btn {
-  padding:10px;
-  font-size:25px;
+  padding:8px;
+  font-size:23px;
   font-weight:bold;
-  border: 4px solid white;
+  //border: 4px solid white;
+  color:#73AD21;
+  background:white;
   border-radius: 5px;
   margin-right:10px;
   cursor:pointer;
