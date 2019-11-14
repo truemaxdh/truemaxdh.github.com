@@ -80,14 +80,15 @@
         
         setTimeout(
           function(){ 
-            dtlEl.className = "popDetail";
             dtlEl.style.left = pnCont.offsetLeft + "px";
             dtlEl.style.top = pnCont.offsetTop + "px";
             dtlEl.style.width = pnCont.offsetWidth + "px";
             dtlEl.style.height = pnCont.offsetHeight + "px";
           }, 100);
         setTimeout(
-          function(){            
+          function(){           
+            dtlEl.style.transition = "0";
+            dtlEl.className = "popDetail";
             var app = appList[idx];
             var html = "<p class='title'>[" + app.Genre + "] " + app.Title + "</p>";
             html += "<p class='shortDesc'>" + app.ShortDesc + "</p>";
@@ -102,6 +103,7 @@
             html += "</div>";
             html += "<p class='close'><a onclick='closeDetail(" + idx + ");'>Close</a></p>";
             dtlEl.innerHTML = html;
+            dtlEl.style.transition = "1s";
           }, 1100);
       }
       
