@@ -57,3 +57,31 @@
   width : 100%;
   text-align:center;
 }
+
+.popDetail {
+  color:#73AD21;
+  border:1px solid #73AD21;
+  margin:0px;
+  background:white;
+}
+
+.popDetail .title {
+  font-size:16px;
+  font-weight:bold;
+  text-decoration:underline;
+}
+
+.popDetail .shortDesc {
+  font-size:10px;
+  opacity:0.7;
+}
+
+.popDetail .Desc {
+}
+
+.popDetail .btn {
+  width:80px;
+  height:35px;
+  border: 1px solid #73AD21;
+  border-radius: 5px;
+}
