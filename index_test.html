@@ -80,14 +80,14 @@
         
         setTimeout(
           function(){ 
+            dtlEl.className = "popDetail";
             dtlEl.style.left = pnCont.offsetLeft + "px";
             dtlEl.style.top = pnCont.offsetTop + "px";
             dtlEl.style.width = pnCont.offsetWidth + "px";
             dtlEl.style.height = pnCont.offsetHeight + "px";
           }, 100);
         setTimeout(
-          function(){
-            dtlEl.className = "popDetail";
+          function(){            
             var app = appList[idx];
             var html = "<p class='title'>[" + app.Genre + "] " + app.Title + "</p>";
             html += "<p class='shortDesc'>" + app.ShortDesc + "</p>";
