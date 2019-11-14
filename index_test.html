@@ -69,8 +69,6 @@
         newEl.style.left = el.offsetLeft + "px";
         newEl.style.top = el.offsetTop + "px";
         newEl.style.margin = "0";
-        newEl.style.textAlign = "left";
-        newEl.style.lineHeight = "20px;";
         newEl.style.transition = "1s";
 
         selEl = el;
@@ -87,6 +85,7 @@
           }, 100);
         setTimeout(
           function(){
+            newEl.className = "popDetail";
             var app = appList[idx];
             var html = "<p class='title'>[" + app.Genre + "]" + app.Title + "</p>";
             html += "<p class='shortDesc'>" + app.ShortDesc + "</p>";
