@@ -60,13 +60,13 @@
       }
       
       var pnCont;
-      var selApEl;
+      var selEl;
       var dtlEl;
       function openDetail(el, idx) {
-        selAp = el;
+        selEl = el;
         
         dtlEl = document.createElement("div");
-        dtlEl.className = selApEl.className;
+        dtlEl.className = selEl.className;
         dtlEl.style.position = "fixed";
         dtlEl.style.left = el.offsetLeft + "px";
         dtlEl.style.top = el.offsetTop + "px";
@@ -105,7 +105,7 @@
       }
       
       function closeDetail(idx) {
-        dtlEl.className = selApEl.className;
+        dtlEl.className = selEl.className;
         dtlEl.innerHTML = "<p class='p_mid'>" + appList[idx].Title + "</p>";
         dtlEl.style.left = selEl.offsetLeft + "px";
         dtlEl.style.top = selEl.offsetTop + "px";
