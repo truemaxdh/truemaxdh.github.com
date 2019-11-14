@@ -67,27 +67,29 @@
 }
 
 .popDetail .title {
-  font-size:20px;
-  font-weight:bold;
+  font-size:30px;
+  font-weight:900;
   text-decoration:underline;
 }
 
 .popDetail .shortDesc {
-  font-size:12px;
+  font-size:13px;
 }
 
 .popDetail .Desc {
   font-size:15px;
+  font-weight:500;
 }
 
 .popDetail .btnTrail {
   position:absolute;
   bottom:80px;
+  height:70px;
 }
 
 .popDetail .btnTrail .btn {
-  width:160px;
-  height:50px;
+  width:180px;
+  height:60px;
   font-size:16px;
   font-weight:bold;
   line-height:50px;
