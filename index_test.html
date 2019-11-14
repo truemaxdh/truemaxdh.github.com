@@ -87,7 +87,10 @@
           }, 100);
         setTimeout(
           function(){           
-            dtlEl.style.transition = "0";
+            dtlEl.style.transition = "0s";
+          /*}, 1100);
+        setTimeout(
+          function() {*/
             dtlEl.className = "popDetail";
             var app = appList[idx];
             var html = "<p class='title'>[" + app.Genre + "] " + app.Title + "</p>";
@@ -104,7 +107,7 @@
             html += "<p class='close'><a onclick='closeDetail(" + idx + ");'>Close</a></p>";
             dtlEl.innerHTML = html;
             dtlEl.style.transition = "1s";
-          }, 1100);
+          }, 1200);
       }
       
       function closeDetail(idx) {
