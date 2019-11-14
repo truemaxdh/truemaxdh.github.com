@@ -92,13 +92,14 @@
             var html = "<p class='title'>[" + app.Genre + "] " + app.Title + "</p>";
             html += "<p class='shortDesc'>" + app.ShortDesc + "</p>";
             html += "<p class='desc'>" + app.Desc + "</p>";
+            html += "<div class='btnTrail'>";
             if (app.Play)
               html += "<a class='btn' onclick=\"window.open('" + app.Play + "');\">Play</a>";
             if (app.Android)
               html += "<a class='btn' onclick=\"window.open('" + app.Android + "');\">Android</a>";
             if (app.GitHub)
               html += "<a class='btn' onclick=\"window.open('" + app.GitHub + "');\">GitHub</a>";
-            
+            html += "</div>";
             html += "<p class='close'><a onclick='closeDetail(" + idx + ");'>Close</a></p>";
             dtlEl.innerHTML = html;
           }, 1100);
