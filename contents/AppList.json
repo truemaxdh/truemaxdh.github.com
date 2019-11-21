@@ -1,77 +1,85 @@
 {"AppList":[
+  {"Title":"2048-AI",
+   "Genre":"Game",
+   "Thumb":"https://avatars3.githubusercontent.com/u/12081386?s=460&v=4",
+   "ShortDesc":"AI playing 2048",
+   "Desc":"AI playing 2048",
+   "Link1":["Play","https://truemaxdh.github.io/2048-AI/"],
+   "Link2":["GitHub","https://github.com/truemaxdh/2048-AI"]
+  },
   {"Title":"Crayon Pentix",
    "Genre":"Game",
    "Thumb":"https://truemaxdh.github.io/EnjoyCoding/game_pentix/512x512.png",
    "ShortDesc":"Crayon Pentix is a Block Drop Game",
    "Desc":"A block of five tiles is called a pentomino. Pentix is a game of falling pentomino. Crayon Pentix is web and android version of pentix game. When you rotate this block and stack it up and fill one row tightly, the line disappears and the score goes up. It is a game that competes to see who gets rid of more lines.",
-   "Play":"https://truemaxdh.github.io/EnjoyCoding/game_pentix/www/",
-   "Android":"https://play.google.com/store/apps/details?id=com.pgmaru.SimplePentix"
+   "Link1":["Play","https://truemaxdh.github.io/EnjoyCoding/game_pentix/www/"],
+   "Link2":["Android","https://play.google.com/store/apps/details?id=com.pgmaru.SimplePentix"]
   },
   {"Title":"Classic Shooting Game",
    "Genre":"Game",
    "Thumb":"https://raw.githubusercontent.com/truemaxdh/MFC_ShootingGame/master/512x512.png",
    "ShortDesc":"Shooting game made by C++(MFC)",
    "Desc":"Classical shooting game.It is a game I made for practice while studying C++ long ago.",
-   "Play":"https://github.com/truemaxdh/MFC_ShootingGame/blob/master/Release/ShootingGame.exe?raw=true",
-   "GitHub":"https://github.com/truemaxdh/MFC_ShootingGame/"
+   "Link1":["Play","https://github.com/truemaxdh/MFC_ShootingGame/blob/master/Release/ShootingGame.exe?raw=true"],
+   "Link2":["GitHub","https://github.com/truemaxdh/MFC_ShootingGame/"]
   },
   {"Title":"Magic Ball",
    "Genre":"Game",
    "Thumb":"https://truemaxdh.github.io/EnjoyCoding/game_magic_bouncing_ball/icon.png",
    "ShortDesc":"Under Developing. Shoot and Divide Balls",
    "Desc":"Simple arcade game. Shoot and Divide Balls.When you hit a ball,it splits into two smaller balls,eventually disappearing.",
-   "Play":"https://truemaxdh.github.io/2018/07/08/MagicBall.html"
+   "Link1":["Play","https://truemaxdh.github.io/EnjoyCoding/game_magic_bouncing_ball/"]
   },
   {"Title":"Sky Miner",
    "Genre":"Game",
    "Thumb":"https://truemaxdh.github.io/EnjoyCoding/game_shooting/512x512.png",
    "ShortDesc":"Sky Miner is a Simple Flight Shooting Game.",
    "Desc":"Sky Miner is a simple flying shooting game with basic rules only.Avoid bombs.Shoot coins to earn points.However, you should not hit the coin directly.There are three kinds of coins.1. '10': It will be removed if you hit once, with score 10 points.2. '50': It will be removed if you hit twice, with score 50 points.3. '100': It will be removed if you hit three times, with score 100 points",
-   "Play":"https://truemaxdh.github.io/2018/06/06/SkyMiner.html",
-   "Android":"https://play.google.com/store/apps/details?id=com.pgmaru.ShootingDream"
+   "Link1":["Play","https://truemaxdh.github.io/EnjoyCoding/game_shooting/www/"],
+   "Link2":["Android","https://play.google.com/store/apps/details?id=com.pgmaru.ShootingDream"]
   },
   {"Title":"Jumping Car",
    "Genre":"Game",
    "Thumb":"https://truemaxdh.github.io/512x512.png",
    "ShortDesc":"Simple game to avoid obstacles through jumping.",
    "Desc":"CSS-oriented game, not Javascript-oriented. Currently under development.",
-   "Play":"https://truemaxdh.github.io/2018/06/06/JumpingCar.html"
+   "Link1":["Play","https://truemaxdh.github.io/EnjoyCoding/game_hscroll_car/"]
   },
   {"Title":"SimpleGraph.JS",
    "Genre":"Utility",
    "Thumb":"https://truemaxdh.github.io/pie.png",
    "ShortDesc":"A Javascript Graph Utility",
    "Desc":"A Javascript Graph Utility for Line Graph, Pie Graph, etc.",
-   "Play":"https://truemaxdh.github.io/simpleGraph.js/",
-   "Github":"https://github.com/truemaxdh/simpleGraph.js"
+   "Link1":["Demo","https://truemaxdh.github.io/simpleGraph.js/"],
+   "Link2":["Github","https://github.com/truemaxdh/simpleGraph.js"]
   },
   {"Title":"WaysToDrawTree",
    "Genre":"Art",
    "Thumb":"https://truemaxdh.github.io/tree.png",
    "ShortDesc":"various ways to draw a tree in HTML5",
    "Desc":"Shows how to draw a tree in various ways in HTML5.",
-   "Play":"https://truemaxdh.github.io/WaysToDrawTree/",
-   "Github":"https://github.com/truemaxdh/WaysToDrawTree"
+   "Link1":["Demo","https://truemaxdh.github.io/WaysToDrawTree/"],
+   "Link2":["Github","https://github.com/truemaxdh/WaysToDrawTree"]
   },
   {"Title":"Simple Piano",
    "Genre":"Art",
    "Thumb":"https://truemaxdh.github.io/SimplePiano/simplePiano.png",
    "ShortDesc":"A simple piano/jukebox created in HTML5",
    "Desc":"A simple piano/jukebox created in HTML5.You can choose to play a voice and a song,or you can play it directly on the keyboard.",
-   "Play":"https://truemaxdh.github.io/SimplePiano/"
+   "Link1":["Play","https://truemaxdh.github.io/SimplePiano/"]
   },
   {"Title":"Bouncing balls on the wall",
    "Genre":"Art",
    "Thumb":"https://truemaxdh.github.io/512x512.png",
    "ShortDesc":"A simple CSS animation test",
    "Desc":"CSS-oriented animation, not Javascript-oriented.",
-   "Play":"https://truemaxdh.github.io/2018/06/06/BouncingBallsOnTheWall.html"
+   "Link1":["Play","https://truemaxdh.github.io/EnjoyCoding/lab_straight-bouncing_balls/"]
   },
   {"Title":"Bubbles",
    "Genre":"Art",
    "Thumb":"https://truemaxdh.github.io/512x512.png",
    "ShortDesc":"Variations of bubbles",
    "Desc":"Variations of bubbles",
-   "Play":"https://truemaxdh.github.io/Bubbles/"
+   "Link1":["Play","https://truemaxdh.github.io/Bubbles/"]
   }
 ]}
