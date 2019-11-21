@@ -104,8 +104,8 @@
               html += "<a class='btn' onclick=\"window.open('" + app.Android + "');\">Android</a>";
             if (app.GitHub)
               html += "<a class='btn' onclick=\"window.open('" + app.GitHub + "');\">GitHub</a>";
+            html += "<a class='close' onclick='closeDetail(" + idx + ");'>X</a>";
             html += "</div>";
-            html += "<p class='close'><a onclick='closeDetail(" + idx + ");'>X</a></p>";
             html += "</div>";
             dtlEl.innerHTML = html;
           }, 1300);
