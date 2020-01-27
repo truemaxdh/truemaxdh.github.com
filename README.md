@@ -1,7 +1,6 @@
-# truemaxdh.github.com
-truemaxdh's works of coding.
-Here are shown his personal works.
-He is a developer of C #, C ++, Java, HTML / Javascript and Computer Vision.
+# Coding is Fun. Enjoy Coding. truemaxdh's works of coding including game, utility, arts
+a developer of C#, C++, Java, HTML / Javascript and Computer Vision.
+Here are shown some personal works.
 
 
 ## Title: [Game] 2048-AI
