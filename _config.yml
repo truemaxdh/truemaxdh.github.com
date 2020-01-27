@@ -1,17 +1,33 @@
-title: EnjoyCoding
-description: Works created with HTML, javascript, css and C++ including Games(puzzle, shooting), Utilities(chart), etc.
-google_analytics: true
-show_downloads: false
-theme: jekyll-theme-architect
-author: truemaxdh
-publisher: github
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
+include:
+  - CONTRIBUTING.md
+  - README.md
+  - LICENSE.md
+  - COPYING.md
+  - CODE_OF_CONDUCT.md
+  - CONTRIBUTING.md
+  - ISSUE_TEMPLATE.md
+  - PULL_REQUEST_TEMPLATE.md
 
-gems:
-  - jekyll-mentions
 
-#defaults:
-#  -
-#    scope:
-#      path: "" # for all files in projects
-#    values:
-#      layout: "default"
+#title: EnjoyCoding
+#description: Works created with HTML, javascript, css and C++ including Games(puzzle, shooting), Utilities(chart), etc.
+#google_analytics: true
+#show_downloads: false
+#theme: jekyll-theme-architect
+#author: truemaxdh
+#publisher: github
+#
+#gems:
+#  - jekyll-mentions
+#
+##defaults:
+##  -
+##    scope:
+##      path: "" # for all files in projects
+##    values:
+##      layout: "default"
