@@ -17,6 +17,8 @@
               // SUCCESS
               var json = this.responseText;
               appList = JSON.parse(json).AppList;
+              writeStaticCont();
+              
               for (var i = 0; i < appList.length; i++) {
                 var gnre = appList[i].Genre;
                 if (genres.find(function(el) {return el==gnre;}) == undefined) {
