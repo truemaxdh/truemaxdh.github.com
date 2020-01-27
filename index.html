@@ -128,28 +128,33 @@
         setTimeout(function() {pnCont.removeChild(dtlEl);},1000);
       }
       
+      function writeStaticCont() {
+        var board = document.getElementById("static_cont");
+        var html = "<ul>";
+        for (var i = 0; i < appList.length; i++) {
+          var app = appList[idx];
+          html += "<li>Title: [" + app.Genre + "] " + app.Title + "</li>";
+          html += "<li>ShortDesc: " + app.ShortDesc + "</li>";
+          html += "<li>Desc: " + app.Desc + "</li>";
+          if (app.Link1)
+            html += "<li><a href=\"" + app.Link1[1] + "\">" + app.Link1[0] + "</a></li>";
+          if (app.Link2)
+            html += "<li><a href=\"" + app.Link2[1] + "\">" + app.Link2[0] + "</a></li>";
+          if (app.Link3)
+            html += "<li><a href=\"" + app.Link3[1] + "\">" + app.Link3[0] + "</a></li>";
+          html += "<a onclick='showStaticCont();'>Close</a>";
+        }
+        html += "</ul>";
+        board.innerHTML = html;
+        board.style.display = "none";
+      }
+      
       function showStaticCont() {
         var board = document.getElementById("static_cont");
-        if (!board.innerHTML) {
-          var html = "<ul>";
-          for (var i = 0; i < appList.length; i++) {
-            var app = appList[idx];
-            html += "<li>Title: [" + app.Genre + "] " + app.Title + "</li>";
-            html += "<li>ShortDesc: " + app.ShortDesc + "</li>";
-            html += "<li>Desc: " + app.Desc + "</li>";
-            if (app.Link1)
-              html += "<li><a href=\"" + app.Link1[1] + "\">" + app.Link1[0] + "</a></li>";
-            if (app.Link2)
-              html += "<li><a href=\"" + app.Link2[1] + "\">" + app.Link2[0] + "</a></li>";
-            if (app.Link3)
-              html += "<li><a href=\"" + app.Link3[1] + "\">" + app.Link3[0] + "</a></li>";
-            html += "<a onclick='showStaticCont();'>Close</a>";
-          }
-          var html += "</ul>";
-          board.innerHTML = html;
-        } else {
-          board.innerHTML = "";
-        }
+        if (board.style.display == "none")
+          board.style.display = "inline";
+        else
+          board.style.display = "none";
       }
     </script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -166,7 +171,7 @@
   <body>
     <div id="wrapper">
       <font color="#73AD21">
-        <b>▤</b>
+        <b style="cursor:hand;" onclick="showStaticCont();">▤</b>
         <b>truemaxdh</b>
         <a href="https://github.com/truemaxdh">GitHub</a>
         <hr>
