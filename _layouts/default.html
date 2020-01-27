@@ -17,7 +17,7 @@
               // SUCCESS
               var json = this.responseText;
               appList = JSON.parse(json).AppList;
-              writeStaticCont();
+              showStaticCont();
               
               for (var i = 0; i < appList.length; i++) {
                 var gnre = appList[i].Genre;
@@ -185,7 +185,7 @@
         <div id="list"></div>
       </div>
     </div>
-    <div id="static_cont"></div>
+    <div id="static_cont">{{content}}</div>
     <div class="g_ad">
       <!-- Google Adsense -->
       <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
