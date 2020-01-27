@@ -104,9 +104,9 @@
             if (app.Link1)
               html += "<a class='btn' href=\"" + app.Link1[1] + "\" onclick=\"window.open('" + app.Link1[1] + "');return false;\">" + app.Link1[0] + "</a>";
             if (app.Link2)
-              html += "<a class='btn' href=\"" + app.Link1[1] + "\" onclick=\"window.open('" + app.Link2[1] + "');return false;\">" + app.Link2[0] + "</a>";
+              html += "<a class='btn' href=\"" + app.Link2[1] + "\" onclick=\"window.open('" + app.Link2[1] + "');return false;\">" + app.Link2[0] + "</a>";
             if (app.Link3)
-              html += "<a class='btn' href=\"" + app.Link1[1] + "\" onclick=\"window.open('" + app.Link3[1] + "');return false;\">" + app.Link3[0] + "</a>";
+              html += "<a class='btn' href=\"" + app.Link3[1] + "\" onclick=\"window.open('" + app.Link3[1] + "');return false;\">" + app.Link3[0] + "</a>";
             html += "<a class='close' onclick='closeDetail(" + idx + ");'>X</a>";
             html += "</div>";
             html += "</div>";
@@ -126,6 +126,30 @@
         dtlEl.style.width = selEl.offsetWidth + "px";
         dtlEl.style.height = selEl.offsetHeight + "px";
         setTimeout(function() {pnCont.removeChild(dtlEl);},1000);
+      }
+      
+      function showStaticCont() {
+        var board = document.getElementById("static_cont");
+        if (!board.innerHTML) {
+          var html = "<ul>";
+          for (var i = 0; i < appList.length; i++) {
+            var app = appList[idx];
+            html += "<li>Title: [" + app.Genre + "] " + app.Title + "</li>";
+            html += "<li>ShortDesc: " + app.ShortDesc + "</li>";
+            html += "<li>Desc: " + app.Desc + "</li>";
+            if (app.Link1)
+              html += "<li><a href=\"" + app.Link1[1] + "\">" + app.Link1[0] + "</a></li>";
+            if (app.Link2)
+              html += "<li><a href=\"" + app.Link2[1] + "\">" + app.Link2[0] + "</a></li>";
+            if (app.Link3)
+              html += "<li><a href=\"" + app.Link3[1] + "\">" + app.Link3[0] + "</a></li>";
+            html += "<a onclick='showStaticCont();'>Close</a>";
+          }
+          var html += "</ul>";
+          board.innerHTML = html;
+        } else {
+          board.innerHTML = "";
+        }
       }
     </script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -155,6 +179,7 @@
         <div id="list"></div>
       </div>
     </div>
+    <div id="static_cont"></div>
     <div class="g_ad">
       <!-- Google Adsense -->
       <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
