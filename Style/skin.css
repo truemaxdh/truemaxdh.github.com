@@ -43,9 +43,19 @@
 }
 
 @media only screen and (max-width:965px) {
- .square {
-  font-size:20px;
- }
+  .square {
+    font-size:20px;
+  }
+  
+  #pannel {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  #contents {
+    width: 300%;
+    overflow: auto;
+  
 }
 
 .bigCircle:hover {
