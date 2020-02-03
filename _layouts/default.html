@@ -47,8 +47,10 @@
           crcl.onclick=function() {openGenre(this.innerHTML);}
           board.appendChild(crcl);
         }
-        var wrap = document.getElementById("wrapper");
-        wrap.style.width = (genres.length * 322) + "px";
+        if (window.innerWidth > 966) {
+          var wrap = document.getElementById("wrapper");
+          wrap.style.width = (genres.length * 322) + "px";
+        }
       }
       
       function openGenre(_gnre) {
