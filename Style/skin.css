@@ -132,7 +132,6 @@
 }
 
 .g_ad {
-  //position:absolute;
-  //bottom:0px;
+  margin-top: 10px;
   width:100%;
 }
