@@ -37,13 +37,13 @@ Here are shown some personal works.
  Desc: CSS-oriented game, not Javascript-oriented. Currently under development.
  <a href="https://truemaxdh.github.io/EnjoyCoding/game_hscroll_car/">Play</a>
 
-## Title: [Utility] SimpleGraph.JS
+## Title: [Utility] Simple Graph .JS
 ### ShortDesc: A Javascript Graph Utility
  Desc: A Javascript Graph Utility for Line Graph, Pie Graph, etc.
  <a href="https://truemaxdh.github.io/simpleGraph.js/">Demo</a>
  <a href="https://github.com/truemaxdh/simpleGraph.js">Github</a>
 
-## Title: [Art] WaysToDrawTree
+## Title: [Art] Ways To Draw Tree
 ### ShortDesc: various ways to draw a tree in HTML5
  Desc: Shows how to draw a tree in various ways in HTML5.
  <a href="https://truemaxdh.github.io/WaysToDrawTree/">Demo</a>
