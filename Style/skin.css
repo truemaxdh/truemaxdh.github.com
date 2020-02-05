@@ -46,6 +46,12 @@
   .square {
     font-size:20px;
   }
+  
+  #wrapper {
+    width:100%;
+    overflow-x: hidden;
+  }
+  
   #panbel {
     width: 100%;
     overflow-x: auto;
