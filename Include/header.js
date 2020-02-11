@@ -1,5 +1,5 @@
 var header;
-if (!cookieBread) { 
+if (typeof cookieBread==="undefined") { 
   header = "<div id='header'>" +
              "  <font color='#73AD21'>" +
              "    <b><a style='text-decoration:none;color:#73AD21;cursor:hand;' onclick='showStaticCont();'>▤</a>truemaxdh</b>" +
