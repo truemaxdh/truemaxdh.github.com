@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>truemaxdh's works of coding</title>
+    <title>truemaxdh's coding log</title>
     <meta name="description" content="truemaxdh's works of coding including game, utility, arts">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="icon.png" type="image/png">
@@ -18,7 +18,7 @@
               // SUCCESS
               var json = this.responseText;
               appList = JSON.parse(json).AppList;
-              showStaticCont();
+              toggleStaticCont();
               
               for (var i = 0; i < appList.length; i++) {
                 var gnre = appList[i].Genre;
@@ -133,33 +133,12 @@
         setTimeout(function() {pnCont.removeChild(dtlEl);},1000);
       }
       
-      function writeStaticCont() {
+      function toggleStaticCont() {
         var board = document.getElementById("static_cont");
-        var html = "<ul>";
-        for (var i = 0; i < appList.length; i++) {
-          var app = appList[i];
-          html += "<li>Title: [" + app.Genre + "] " + app.Title + "</li>";
-          html += "<li>ShortDesc: " + app.ShortDesc + "</li>";
-          html += "<li>Desc: " + app.Desc + "</li>";
-          if (app.Link1)
-            html += "<li><a href=\"" + app.Link1[1] + "\">" + app.Link1[0] + "</a></li>";
-          if (app.Link2)
-            html += "<li><a href=\"" + app.Link2[1] + "\">" + app.Link2[0] + "</a></li>";
-          if (app.Link3)
-            html += "<li><a href=\"" + app.Link3[1] + "\">" + app.Link3[0] + "</a></li>";
-          html += "<a onclick='showStaticCont();'>Close</a>";
-        }
-        html += "</ul>";
-        board.innerHTML = html;
-        board.style.display = "none";
-      }
-      
-      function showStaticCont() {
-        var board = document.getElementById("static_cont");
-        if (board.style.display == "none")
-          board.style.display = "inline";
+        if (board.style.height == "0")
+          board.style.height = "auto";
         else
-          board.style.display = "none";
+          board.style.height = "0";
       }
     </script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -175,6 +154,7 @@
   </head>
   <body>
     <script src="/Include/header.js"></script>
+    <div id="static_cont">{{content}}</div>
     <div id="wrapper">
       <div id="pannel">
         <div id="contents"></div>
@@ -182,7 +162,6 @@
       <p>&nbsp;</p>
       <div id="list"></div>
     </div>
-    <div id="static_cont">{{content}}</div>
     <div class="g_ad">
       <!-- Google Adsense -->
       <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
