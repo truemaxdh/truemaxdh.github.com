@@ -161,3 +161,27 @@
   margin-top: 10px;
   width:100%;
 }
+
+#static_cont {
+  background: #1a1a1a;
+  color:#fff;
+}
+
+#static_cont h1 {
+  color:#ffffc8;
+}
+
+#static_cont h2 {
+  color:#ffffd9;
+}
+
+#static_cont h3 {
+  color:#ffffea;
+}
+
+#static_cont a {
+  background: #1a1a1a;
+  color:#fff;
+  border: 2px solid #fff;
+  border-radius : 10px;
+}
