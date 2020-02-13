@@ -1,5 +1,5 @@
 # Coding For Fun
-My log of coding for fun. Codes for games, utilities, and arts.
+My coding log for fun.
 
 
 ## Title: [Game] 2048-AI
