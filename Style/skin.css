@@ -186,3 +186,10 @@
   border: 2px solid #fff;
   border-radius : 10px;
 }
+
+#header {
+  background: #1a1a1a;
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+}
