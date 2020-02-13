@@ -1,3 +1,7 @@
+body {
+  text-align: center;
+}
+
 .clear {
   clear : both;
 }
@@ -163,9 +167,16 @@
 }
 
 #static_cont {
+  width: 965px;
   background: #1a1a1a;
   color: #fff;
-  overflow: hidden;
+  overflow-y: hidden;
+}
+
+@media only screen and (max-width:965px) {
+  #static_cont {
+    width: 100%;
+  }
 }
 
 #static_cont h1 {
@@ -191,5 +202,14 @@
   background: #1a1a1a;
   text-align: center;
   font-weight: bold;
+  font-size: 25px;
+}
+
+#header #title {
   color: #fff;
+}
+
+#header a {
+  text-decoration: none;
+  color: #ffffea;
 }
