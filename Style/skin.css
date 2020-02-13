@@ -205,11 +205,17 @@ body {
   background: #1a1a1a;
   text-align: center;
   font-weight: bold;
+  color: #fff;
 }
 
 #header #title {
   color: #ffffc8;
   font-size: 25px;
+  left: 0px;
+}
+
+#header #menu {
+  right: 0px;
 }
 
 #header a {
