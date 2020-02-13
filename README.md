@@ -1,6 +1,5 @@
-# truemaxdh's works of coding including game, utility, arts
-a developer of C#, C++, Java, HTML / Javascript and Computer Vision.
-Here are shown some personal works.
+# Coding For Fun
+My log of coding for fun. Codes for games, utilities, and arts.
 
 
 ## Title: [Game] 2048-AI
