@@ -164,15 +164,16 @@
 
 #static_cont {
   background: #1a1a1a;
-  color:#fff;
+  color: #fff;
+  overflow: hidden;
 }
 
 #static_cont h1 {
-  color:#ffffc8;
+  color: #ffffc8;
 }
 
 #static_cont h2 {
-  color:#ffffd9;
+  color: #ffffd9;
 }
 
 #static_cont h3 {
