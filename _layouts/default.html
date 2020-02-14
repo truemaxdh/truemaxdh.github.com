@@ -77,8 +77,8 @@
         dtlEl = document.createElement("div");
         dtlEl.className = selEl.className;
         dtlEl.style.position = "absolute";
-        dtlEl.style.left = el.offsetLeft - pnCont.offsetLeft + "px";
-        dtlEl.style.top = el.offsetTop - pnCont.offsetTop + "px";
+        dtlEl.style.left = el.offsetLeft + "px";
+        dtlEl.style.top = el.offsetTop + "px";
         dtlEl.style.margin = "0";
         dtlEl.style.transition = "1s";
 
@@ -126,8 +126,8 @@
       function closeDetail(idx) {
         dtlEl.className = selEl.className;
         dtlEl.innerHTML = "<p class='p_mid'>" + appList[idx].Title + "</p>";
-        dtlEl.style.left = selEl.offsetLeft - pnCont.offsetLeft + "px";
-        dtlEl.style.top = selEl.offsetTop - pnCont.offsetTop + "px";
+        dtlEl.style.left = selEl.offsetLeft + "px";
+        dtlEl.style.top = selEl.offsetTop + "px";
         dtlEl.style.width = selEl.offsetWidth + "px";
         dtlEl.style.height = selEl.offsetHeight + "px";
         setTimeout(function() {pnCont.removeChild(dtlEl);},1000);
