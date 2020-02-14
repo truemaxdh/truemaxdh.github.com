@@ -1,7 +1,7 @@
 var header;
 if (typeof cookieBread==="undefined") { 
   header = "<div id='header'>" +
-           "  <div id='title>" +
+           "  <div id='title'>" +
            "    <a onclick='toggleStaticCont();'>▤</a> Coding Sketchbook" +
            "  </div>" +
            "  <div id='menu'>" +
@@ -14,7 +14,7 @@ if (typeof cookieBread==="undefined") {
            "</div>";
 } else {
   header = "<div id='header'>" +
-           "  <div id='title>" +
+           "  <div id='title'>" +
            "    <a href='https://truemaxdh.github.io'>▤</a> <span id='title'>Coding Sketchbook</span>" +
            "  </div>" +
            "  <div id='menu'>" +
