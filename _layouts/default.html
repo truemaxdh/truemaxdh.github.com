@@ -146,14 +146,14 @@
             html += "<p class='shortDesc'>" + app.ShortDesc + "</p>";
             html += "<p class='desc'>" + app.Desc + "</p>";
             html += "<div class='btnTrail'>";
-            if (app.Link1)
-              html += "<a class='btn' href=\"" + app.Link1[1] + "\" onclick=\"window.open('" + app.Link1[1] + "');return false;\">" + app.Link1[0] + "</a>";
-            if (app.Link2)
-              html += "<a class='btn' href=\"" + app.Link2[1] + "\" onclick=\"window.open('" + app.Link2[1] + "');return false;\">" + app.Link2[0] + "</a>";
-            if (app.Link3)
-              html += "<a class='btn' href=\"" + app.Link3[1] + "\" onclick=\"window.open('" + app.Link3[1] + "');return false;\">" + app.Link3[0] + "</a>";
-            if (app.Link4)
-              html += "<a class='btn' href=\"" + app.Link4[1] + "\" onclick=\"window.open('" + app.Link3[1] + "');return false;\">" + app.Link3[0] + "</a>";
+            if (app.Demo)
+              html += "<a class='btn' href=\"" + app.Demo + "\" onclick=\"window.open('" + app.Demo + "');return false;\">Demo</a>";
+            if (app.Play)
+              html += "<a class='btn' href=\"" + app.Play + "\" onclick=\"window.open('" + app.Play + "');return false;\">Play</a>";
+            if (app.GitHub)
+              html += "<a class='btn' href=\"" + app.GitHub + "\" onclick=\"window.open('" + app.GitHub + "');return false;\">GitHub</a>";
+            if (app.Android)
+              html += "<a class='btn' href=\"" + app.Android + "\" onclick=\"window.open('" + app.Android + "');return false;\">Android</a>";
             html += "<a class='close' onclick='closeDetail(" + idx + ");'>X</a>";
             html += "</div>";
             html += "</div>";
