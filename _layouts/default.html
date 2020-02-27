@@ -29,6 +29,7 @@
             if (this.status == 200) {
               
               // TEST
+              console.log(this.responseText);
               var tmp = this.responseText;
               tmp = tmp.replace(/\n/g, "");
               tmp = tmp.replace(/# Coding Sketchbook My coding log for fun. ___ /g, "{AppList:[");
@@ -42,7 +43,7 @@
               tmp = tmp.replace(/ \[GitHub]\(/,",Link3:[GitHub,");
               tmp = tmp.replace(/ ___ /,"},");
               tmp = tmp.replace(/ \[Android]\(/,",Link4:[Android,");
-              
+              console.log(tmp);
               
               tmp += "}]}";                  
               var board = document.getElementById("contents");
