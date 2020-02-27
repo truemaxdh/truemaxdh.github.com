@@ -1,7 +1,7 @@
 # Coding Sketchbook
 My coding log for fun.
 
-___
+===
 ## [Game] 2048-AI
 ### AI playing 2048
 #### AI playing 2048
