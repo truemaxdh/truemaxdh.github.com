@@ -32,14 +32,14 @@
               var tmp = this.responseText;
               tmp = tmp.replace(/\r\n/g, "");
               tmp = tmp.replace(/# Coding Sketchbook My coding log for fun. ___ /g, "{AppList:[");
-              tmp = tmp.replace(/## [/,"{Genre:");
+              tmp = tmp.replace(/## \[/,"{Genre:");
               tmp = tmp.replace(/] /,",Title:");
               tmp = tmp.replace(/ ### /,",ShortDesc:"):
               tmp = tmp.replace(/ #### /,",Desc:"):
-              tmp = tmp.replace(/ [Demo](/,",Link1:[Demo,");
-              tmp = tmp.replace(/ [Play](/,",Link2:[Play,");
+              tmp = tmp.replace(/ \[Demo](/,",Link1:[Demo,");
+              tmp = tmp.replace(/ \[Play](/,",Link2:[Play,");
               tmp = tmp.replace(/)/,"]");
-              tmp = tmp.replace(/ [GitHub](/,",Link3:[GitHub,");
+              tmp = tmp.replace(/ \[GitHub](/,",Link3:[GitHub,");
               tmp = tmp.replace(/ ___ /,"},");
               tmp = tmp.replace(/ [Android](/,",Link4:[Android,");
               
