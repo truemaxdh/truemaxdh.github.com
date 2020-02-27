@@ -29,7 +29,6 @@
             if (this.status == 200) {
               
               // TEST
-              console.log(this.responseText);
               var tmp = this.responseText;
               tmp = tmp.replace(/\n/g, "");
               tmp = tmp.replace(/# Coding SketchbookMy coding log for fun.___/g, "{AppList:[");
@@ -43,17 +42,18 @@
               tmp = tmp.replace(/\[GitHub]\(/g,",Link3:[GitHub,");
               tmp = tmp.replace(/___/g,"},");
               tmp = tmp.replace(/\[Android]\(/g,",Link4:[Android,");
+              tmp += "}]}";                  
               console.log(tmp);
               
-              tmp += "}]}";                  
-              var board = document.getElementById("contents");
-              board.innerHTML=tmp;
-              return;
+              //var board = document.getElementById("contents");
+              //board.innerHTML=tmp;
+              //return;
               
               
               
               // SUCCESS
-              var json = this.responseText;
+              //var json = this.responseText;
+              var json = tmp;
               appList = JSON.parse(json).AppList;
               toggleStaticCont();
               
