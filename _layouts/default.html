@@ -27,6 +27,16 @@
         xhttp.onreadystatechange = function() {
           if (this.readyState == 4) {
             if (this.status == 200) {
+              
+              // TEST
+              var tmp = this.responseText;
+              tmp = tmp.replace(/\r\n/g, "");
+              var board = document.getElementById("contents");
+              board.innerHTML=tmp;
+              return;
+              
+              
+              
               // SUCCESS
               var json = this.responseText;
               appList = JSON.parse(json).AppList;
@@ -44,7 +54,8 @@
             }
           }
         }
-        xhttp.open("GET", "/contents/AppList.json", true);
+        //xhttp.open("GET", "/contents/AppList.json", true);
+        xhttp.open("GET", "/README.md", true);
         xhttp.send();
       }
       
