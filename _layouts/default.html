@@ -36,8 +36,8 @@
               tmp = tmp.replace(/] /g,"\" ,\"Title\":\"");
               tmp = tmp.replace(/## \[/g," {\"Genre\": \"");
 
-              tmp = tmp.replace(/\[/g,"\",");
-              tmp = tmp.replace(/]\(/g,": \"");
+              tmp = tmp.replace(/\[/g,"\", \"");
+              tmp = tmp.replace(/]\(/g,"\": \"");
               tmp = tmp.replace(/\)/g,"");
               
               tmp = tmp.replace(/___/g,"\" },\n");
