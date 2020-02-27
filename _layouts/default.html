@@ -32,17 +32,18 @@
               var tmp = this.responseText;
               tmp = tmp.replace(/\n/g, "");
               tmp = tmp.replace(/# Coding SketchbookMy coding log for fun.___/g, "{AppList:[");
-              tmp = tmp.replace(/#### /g,",Desc:");
-              tmp = tmp.replace(/### /g,",ShortDesc:");
-              tmp = tmp.replace(/## \[/g,"{Genre:");
-              tmp = tmp.replace(/] /g,",Title:");
-              tmp = tmp.replace(/\[Demo]\(/g,",Link1:[Demo,");
-              tmp = tmp.replace(/\[Play]\(/g,",Link2:[Play,");
-              tmp = tmp.replace(/\)/g,"]");
-              tmp = tmp.replace(/\[GitHub]\(/g,",Link3:[GitHub,");
-              tmp = tmp.replace(/___/g,"},");
-              tmp = tmp.replace(/\[Android]\(/g,",Link4:[Android,");
-              tmp += "}]}";                  
+              tmp = tmp.replace(/#### /g,"\" ,Desc: \"");
+              tmp = tmp.replace(/### /g,"\" ,ShortDesc: \"");
+              tmp = tmp.replace(/] /g,"\" ,Title:\"");
+              tmp = tmp.replace(/## \[/g," {Genre: \"");
+
+              tmp = tmp.replace(/\[/g,"\",");
+              tmp = tmp.replace(/]\(/g,": \"");
+              tmp = tmp.replace(/\)/g,"");
+              
+              tmp = tmp.replace(/___/g,"\" },");
+              
+              tmp += "\" }]}";                  
               console.log(tmp);
               
               //var board = document.getElementById("contents");
