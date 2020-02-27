@@ -30,7 +30,7 @@
               
               // TEST
               var tmp = this.responseText;
-              tmp = tmp.replace(/\r\n/g, "");
+              tmp = tmp.replace(/\n/g, "");
               tmp = tmp.replace(/# Coding Sketchbook My coding log for fun. ___ /g, "{AppList:[");
               tmp = tmp.replace(/## \[/,"{Genre:");
               tmp = tmp.replace(/] /,",Title:");
