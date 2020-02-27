@@ -33,16 +33,16 @@
               var tmp = this.responseText;
               tmp = tmp.replace(/\n/g, "");
               tmp = tmp.replace(/# Coding SketchbookMy coding log for fun.___/g, "{AppList:[");
-              tmp = tmp.replace(/#### /,",Desc:");
-              tmp = tmp.replace(/### /,",ShortDesc:");
-              tmp = tmp.replace(/## \[/,"{Genre:");
-              tmp = tmp.replace(/] /,",Title:");
-              tmp = tmp.replace(/\[Demo]\(/,",Link1:[Demo,");
-              tmp = tmp.replace(/\[Play]\(/,",Link2:[Play,");
-              tmp = tmp.replace(/\)/,"]");
-              tmp = tmp.replace(/\[GitHub]\(/,",Link3:[GitHub,");
-              tmp = tmp.replace(/___/,"},");
-              tmp = tmp.replace(/\[Android]\(/,",Link4:[Android,");
+              tmp = tmp.replace(/#### /g,",Desc:");
+              tmp = tmp.replace(/### /g,",ShortDesc:");
+              tmp = tmp.replace(/## \[/g,"{Genre:");
+              tmp = tmp.replace(/] /g,",Title:");
+              tmp = tmp.replace(/\[Demo]\(/g,",Link1:[Demo,");
+              tmp = tmp.replace(/\[Play]\(/g,",Link2:[Play,");
+              tmp = tmp.replace(/\)/g,"]");
+              tmp = tmp.replace(/\[GitHub]\(/g,",Link3:[GitHub,");
+              tmp = tmp.replace(/___/g,"},");
+              tmp = tmp.replace(/\[Android]\(/g,",Link4:[Android,");
               console.log(tmp);
               
               tmp += "}]}";                  
