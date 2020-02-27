@@ -5,15 +5,15 @@ My coding log for fun.
 ## [Game] 2048-AI
 ### AI playing 2048
 #### AI playing 2048
-<a href="https://truemaxdh.github.io/2048-AI/">Play</a>
-<a href="https://github.com/truemaxdh/2048-AI">GitHub</a>
+[Play](https://truemaxdh.github.io/2048-AI/)
+[GitHub](https://github.com/truemaxdh/2048-AI)
 
 ## [Game] Crayon Pentix
 ### Crayon Pentix is a Block Drop Game
 #### A block of five tiles is called a pentomino. Pentix is a game of falling pentomino. Crayon Pentix is web and android version of pentix game. When you rotate this block and stack it up and fill one row tightly, the line disappears and the score goes up. It is a game that competes to see who gets rid of more lines.
-<a href="https://truemaxdh.github.io/EnjoyCoding/game_pentix/www/">Play</a>
-<a href="https://play.google.com/store/apps/details?id=com.pgmaru.SimplePentix">Android</a>
-
+[Play](https://truemaxdh.github.io/EnjoyCoding/game_pentix/)
+[Android](https://play.google.com/store/apps/details?id=com.pgmaru.SimplePentix)
+[GitHub](https://github.com/truemaxdh/EnjoyCoding/tree/gh-pages/game_pentix)
 ## [Game] Classic Shooting Game
 ### Shooting game made by C++(MFC)
 #### Classical shooting game.It is a game I made for practice while studying C++ long ago.
@@ -39,14 +39,14 @@ My coding log for fun.
 ## [Utility] Simple Graph .JS
 ### A Javascript Graph Utility
 #### A Javascript Graph Utility for Line Graph, Pie Graph, etc.
-<a href="https://truemaxdh.github.io/simpleGraph.js/">Demo</a>
-<a href="https://github.com/truemaxdh/simpleGraph.js">Github</a>
+[Demo](https://truemaxdh.github.io/simpleGraph.js/)
+[GitHub](https://github.com/truemaxdh/simpleGraph.js)
 
 ## [Art] Ways To Draw Tree
 ### various ways to draw a tree in HTML5
 #### Shows how to draw a tree in various ways in HTML5.
-<a href="https://truemaxdh.github.io/WaysToDrawTree/">Demo</a>
-<a href="https://github.com/truemaxdh/WaysToDrawTree">Github</a>
+[Demo](https://truemaxdh.github.io/WaysToDrawTree/)
+[GitHub](https://github.com/truemaxdh/WaysToDrawTree)
 
 ## [Art] Simple Piano
 ### A simple piano/jukebox created in HTML5
