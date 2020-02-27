@@ -31,6 +31,20 @@
               // TEST
               var tmp = this.responseText;
               tmp = tmp.replace(/\r\n/g, "");
+              tmp = tmp.replace(/# Coding Sketchbook My coding log for fun. ___ /g, "{AppList:[");
+              tmp = tmp.replace(/## [/,"{Genre:");
+              tmp = tmp.replace(/] /,",Title:");
+              tmp = tmp.replace(/ ### /,",ShortDesc:"):
+              tmp = tmp.replace(/ #### /,",Desc:"):
+              tmp = tmp.replace(/ [Demo](/,",Link1:[Demo,");
+              tmp = tmp.replace(/ [Play](/,",Link2:[Play,");
+              tmp = tmp.replace(/)/,"]");
+              tmp = tmp.replace(/ [GitHub](/,",Link3:[GitHub,");
+              tmp = tmp.replace(/ ___ /,"},");
+              tmp = tmp.replace(/ [Android](/,",Link4:[Android,");
+              
+              
+              tmp += "}]}";                  
               var board = document.getElementById("contents");
               board.innerHTML=tmp;
               return;
@@ -135,6 +149,8 @@
               html += "<a class='btn' href=\"" + app.Link2[1] + "\" onclick=\"window.open('" + app.Link2[1] + "');return false;\">" + app.Link2[0] + "</a>";
             if (app.Link3)
               html += "<a class='btn' href=\"" + app.Link3[1] + "\" onclick=\"window.open('" + app.Link3[1] + "');return false;\">" + app.Link3[0] + "</a>";
+            if (app.Link4)
+              html += "<a class='btn' href=\"" + app.Link4[1] + "\" onclick=\"window.open('" + app.Link3[1] + "');return false;\">" + app.Link3[0] + "</a>";
             html += "<a class='close' onclick='closeDetail(" + idx + ");'>X</a>";
             html += "</div>";
             html += "</div>";
