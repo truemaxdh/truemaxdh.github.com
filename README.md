@@ -29,8 +29,9 @@ ___
 ## [Game] Sky Miner
 ### Sky Miner is a Simple Flight Shooting Game.
 #### Sky Miner is a simple flying shooting game with basic rules only.Avoid bombs.Shoot coins to earn points.However, you should not hit the coin directly.There are three kinds of coins.1. '10': It will be removed if you hit once, with score 10 points.2. '50': It will be removed if you hit twice, with score 50 points.3. '100': It will be removed if you hit three times, with score 100 points
-[Play](https://truemaxdh.github.io/EnjoyCoding/game_shooting/www/)
+[Play](https://truemaxdh.github.io/EnjoyCoding/game_shooting/)
 [Android](https://play.google.com/store/apps/details?id=com.pgmaru.ShootingDream)
+[GitHub](https://github.com/truemaxdh/EnjoyCoding/tree/gh-pages/game_shooting)
 ___
 ## [Game] Jumping Car
 ### Simple game to avoid obstacles through jumping.
