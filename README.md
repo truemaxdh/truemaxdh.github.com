@@ -37,9 +37,9 @@ ___
  Avoid bombs.Shoot coins, but not hit coins directly.<br>
  That's all.<br>
  Coins are differ with their number in endurance and score.<br>
- 1. '10': Removed at hit once, and 10 points earning.<br>
- 2. '50': Removed at hit twice, and 50 points earning.<br>
- 3. '100': Removed at hit three times, and 100 points earning.<br>
+ 1. '10': Removed at hitting once, and 10 points of earning.<br>
+ 2. '50': Removed at hitting twice, and 50 points of earning.<br>
+ 3. '100': Removed at hitting three times, and 100 points of earning.<br>
 [Play](https://truemaxdh.github.io/EnjoyCoding/game_shooting/)
 [Android](https://play.google.com/store/apps/details?id=com.pgmaru.ShootingDream)
 [GitHub](https://github.com/truemaxdh/EnjoyCoding/tree/gh-pages/game_shooting)
