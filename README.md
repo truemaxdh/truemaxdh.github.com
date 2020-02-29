@@ -15,7 +15,7 @@ Pentix is a game of falling pentomino.<br>
 Crayon Pentix is web and android version of pentix game.<br>
 When you rotate this block and stack it up and fill one row tightly,<br>
 the line disappears and the score goes up.<br>
-It is a game that competes to see who gets rid of more lines.  
+It is a game that competes to see who gets rid of more lines.<br>
 [Play](https://truemaxdh.github.io/EnjoyCoding/game_pentix/)
 [Android](https://play.google.com/store/apps/details?id=com.pgmaru.SimplePentix)
 [GitHub](https://github.com/truemaxdh/EnjoyCoding/tree/gh-pages/game_pentix)
@@ -33,13 +33,13 @@ ___
 ___
 ## [Game] Tiny Flight
 ### Tiny Flight, a simple flight shooting game.
-#### Tiny Flight is a simple flight shooting game, with only a few rules.  
- Avoid bombs.Shoot coins, but not hit coins directly.  
- That's all.  
- Coins are differ with their number in endurance and score.  
- 1. '10': Removed at hit once, and 10 points earning.
- 2. '50': Removed at hit twice, and 50 points earning.
- 3. '100': Removed at hit three times, and 100 points earning.
+#### Tiny Flight is a simple flight shooting game, with only a few rules.<br>
+ Avoid bombs.Shoot coins, but not hit coins directly.<br>
+ That's all.<br>
+ Coins are differ with their number in endurance and score.<br>
+ 1. '10': Removed at hit once, and 10 points earning.<br>
+ 2. '50': Removed at hit twice, and 50 points earning.<br>
+ 3. '100': Removed at hit three times, and 100 points earning.<br>
 [Play](https://truemaxdh.github.io/EnjoyCoding/game_shooting/)
 [Android](https://play.google.com/store/apps/details?id=com.pgmaru.ShootingDream)
 [GitHub](https://github.com/truemaxdh/EnjoyCoding/tree/gh-pages/game_shooting)
