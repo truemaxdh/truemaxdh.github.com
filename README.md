@@ -34,7 +34,7 @@ ___
 ## [Game] Tiny Flight
 ### Tiny Flight, a simple flight shooting game.
 #### Tiny Flight is a simple flight shooting game, with only a few rules.<br>
- Avoid bombs.Shoot coins, but not hit coins directly.<br>
+ Avoid bombs.Shoot coins, but not bump into coins.<br>
  That's all.<br>
  Coins are differ with their number in endurance and score.<br>
  1. '10': Removed at hitting once, and 10 points of earning.<br>
