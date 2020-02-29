@@ -10,12 +10,12 @@ My coding log for fun.
 ___
 ## [Game] Crayon Pentix
 ### Crayon Pentix is a Block Drop Game
-#### A block of five tiles is called a pentomino.  
-Pentix is a game of falling pentomino.  
-Crayon Pentix is web and android version of pentix game.  
-When you rotate this block and stack it up and fill one row tightly,  
-the line disappears and the score goes up.  
-It is a game that competes to see who gets rid of more lines.
+#### A block of five tiles is called a pentomino.<br>
+Pentix is a game of falling pentomino.<br>
+Crayon Pentix is web and android version of pentix game.<br>
+When you rotate this block and stack it up and fill one row tightly,<br>
+the line disappears and the score goes up.<br>
+It is a game that competes to see who gets rid of more lines.  
 [Play](https://truemaxdh.github.io/EnjoyCoding/game_pentix/)
 [Android](https://play.google.com/store/apps/details?id=com.pgmaru.SimplePentix)
 [GitHub](https://github.com/truemaxdh/EnjoyCoding/tree/gh-pages/game_pentix)
