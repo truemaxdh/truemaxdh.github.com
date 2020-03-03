@@ -3,6 +3,16 @@ body {
   margin: auto;
 }
 
+.normalBtn {
+  font-weight: bold;
+  font-size: 20px;
+  color: #333;
+  padding: 3px;
+  border: 2px solid #333;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
 .square {
   line-height:150px;
   width:150px;
