@@ -30,6 +30,7 @@ ___
 ### Under Developing. Shoot and Divide Balls
 #### Simple arcade game. Shoot and Divide Balls.When you hit a ball,it splits into two smaller balls,eventually disappearing.
 [Play](https://truemaxdh.github.io/EnjoyCoding/game_magic_bouncing_ball/)
+[GitHub](https://github.com/truemaxdh/EnjoyCoding/tree/gh-pages/game_magic_bouncing_ball)
 ___
 ## [Game] Tiny Flight
 ### Tiny Flight, a simple flight shooting game.
