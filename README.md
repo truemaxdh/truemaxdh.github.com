@@ -62,6 +62,12 @@ ___
 [Demo](https://truemaxdh.github.io/WaysToDrawTree/)
 [GitHub](https://github.com/truemaxdh/WaysToDrawTree)
 ___
+## [Art] Special Effects
+### Samples of special effects based on HTML and javascript
+#### Samples of special effects based on HTML and javascript.
+[Demo](https://truemaxdh.github.io/SpecialEffects/)
+[GitHub](https://github.com/truemaxdh/SpecialEffects)
+___
 ## [Art] Simple Piano
 ### A simple piano/jukebox created in HTML5
 #### A simple piano/jukebox created in HTML5.You can choose to play a voice and a song,or you can play it directly on the keyboard.
