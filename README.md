@@ -8,30 +8,6 @@ My coding log for fun.
 [Play](https://truemaxdh.github.io/2048-AI/)
 [GitHub](https://github.com/truemaxdh/2048-AI)
 ___
-## [Game] Crayon Pentix
-### Crayon Pentix is a Block Drop Game
-#### A block of five tiles is called a pentomino.<br>
-Pentix is a game of falling pentomino.<br>
-Crayon Pentix is web and android version of pentix game.<br>
-When you rotate this block and stack it up and fill one row tightly,<br>
-the line disappears and the score goes up.<br>
-It is a game that competes to see who gets rid of more lines.<br>
-[Play](https://truemaxdh.github.io/EnjoyCoding/game_pentix/)
-[Android](https://play.google.com/store/apps/details?id=com.pgmaru.SimplePentix)
-[GitHub](https://github.com/truemaxdh/EnjoyCoding/tree/gh-pages/game_pentix)
-___
-## [Game] Classic Shooting Game
-### Shooting game made by C++(MFC)
-#### Classical shooting game.It is a game I made for practice while studying C++ long ago.
-[Play](https://github.com/truemaxdh/MFC_ShootingGame/blob/master/Release/ShootingGame.exe?raw=true)
-[GitHub](https://github.com/truemaxdh/MFC_ShootingGame/)
-___
-## [Game] Magic Ball
-### Under Developing. Shoot and Divide Balls
-#### Simple arcade game. Shoot and Divide Balls.When you hit a ball,it splits into two smaller balls,eventually disappearing.
-[Play](https://truemaxdh.github.io/EnjoyCoding/game_magic_bouncing_ball/)
-[GitHub](https://github.com/truemaxdh/EnjoyCoding/tree/gh-pages/game_magic_bouncing_ball)
-___
 ## [Game] Tiny Flight
 ### Tiny Flight, a simple flight shooting game.
 #### Tiny Flight is a simple flight shooting game, with only a few rules.<br>
@@ -45,10 +21,34 @@ ___
 [Android](https://play.google.com/store/apps/details?id=com.pgmaru.ShootingDream)
 [GitHub](https://github.com/truemaxdh/EnjoyCoding/tree/gh-pages/game_shooting)
 ___
+## [Game] Crayon Pentix
+### Crayon Pentix is a Block Drop Game
+#### A block of five tiles is called a pentomino.<br>
+Pentix is a game of falling pentomino.<br>
+Crayon Pentix is web and android version of pentix game.<br>
+When you rotate this block and stack it up and fill one row tightly,<br>
+the line disappears and the score goes up.<br>
+It is a game that competes to see who gets rid of more lines.<br>
+[Play](https://truemaxdh.github.io/EnjoyCoding/game_pentix/)
+[Android](https://play.google.com/store/apps/details?id=com.pgmaru.SimplePentix)
+[GitHub](https://github.com/truemaxdh/EnjoyCoding/tree/gh-pages/game_pentix)
+___
+## [Game] Magic Ball
+### Under Developing. Shoot and Divide Balls
+#### Simple arcade game. Shoot and Divide Balls.When you hit a ball,it splits into two smaller balls,eventually disappearing.
+[Play](https://truemaxdh.github.io/EnjoyCoding/game_magic_bouncing_ball/)
+[GitHub](https://github.com/truemaxdh/EnjoyCoding/tree/gh-pages/game_magic_bouncing_ball)
+___
 ## [Game] Jumping Car
 ### Simple game to avoid obstacles through jumping.
 #### CSS-oriented game, not Javascript-oriented. Currently under development.
 [Play](https://truemaxdh.github.io/EnjoyCoding/game_hscroll_car/)
+___
+## [Game] Classic Shooting Game
+### Shooting game made by C++(MFC)
+#### Classical shooting game.It is a game I made for practice while studying C++ long ago.
+[Play](https://github.com/truemaxdh/MFC_ShootingGame/blob/master/Release/ShootingGame.exe?raw=true)
+[GitHub](https://github.com/truemaxdh/MFC_ShootingGame/)
 ___
 ## [Utility] Simple Graph .JS
 ### A Javascript Graph Utility
