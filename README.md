@@ -1,5 +1,5 @@
 # Coding Sketchbook
-My coding log for fun.
+My coding log.
 
 ---
 ## [Game] 2048-AI
@@ -72,13 +72,3 @@ ___
 ### A simple piano/jukebox created in HTML5
 #### A simple piano/jukebox created in HTML5.You can choose to play a voice and a song,or you can play it directly on the keyboard.
 [Play](https://truemaxdh.github.io/SimplePiano/)
-___
-## [Art] Bouncing balls on the wall
-### A simple CSS animation test
-#### CSS-oriented animation, not Javascript-oriented.
-[Play](https://truemaxdh.github.io/EnjoyCoding/lab_straight-bouncing_balls/)
-___
-## [Art] Bubbles
-### Variations of bubbles
-#### Variations of bubbles
-[Play](https://truemaxdh.github.io/Bubbles/)
