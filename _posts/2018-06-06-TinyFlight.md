@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Sky Miner - free Shooting game
+title: Tiny Flight - free Shooting game
 thumb: https://truemaxdh.github.io/EnjoyCoding/game_shooting/512x512.png
 short-description : Simple Flight Shooting Game
 description : A simple flying shooting game with basic rules only. Avoid bombs.Shoot coins to earn points. However, you should not hit the coin directly.
