@@ -6,20 +6,19 @@ short-description : Simple Flight Shooting Game
 description : A simple flying shooting game with basic rules only. Avoid bombs.Shoot coins to earn points. However, you should not hit the coin directly.
 ---
 <img src="https://truemaxdh.github.io/EnjoyCoding/game_shooting/512x512.png" align="left" class="img">
-<h3>Sky Miner</h3>
+<h3>Tiny Flight</h3>
 <hr>
-<p>Sky Miner is a Simple Flight Shooting Game.</p>
+<p>Tiny Flight is a Simple Flight Shooting Game.</p>
 <p class="detail">
-  Sky Miner is a simple flying shooting game with basic rules only.<br>
+  Tiny Flight is a simple flight shooting game, with only a few rules.<br>
   <br>
-  Avoid bombs.<br>
-  Shoot coins to earn points.<br>
-  However, you should not hit the coin directly.<br>
+  Avoid bombs.Shoot coins, but not bump into coins.<br>
+  That’s all.<br>
+  Coins are differ with their number in endurance and score.<br>
   <br>
-  There are three kinds of coins.<br>
-  1. '10': It will be removed if you hit once, with score 10 points.<br>
-  2. '50': It will be removed if you hit twice, with score 50 points<br>
-  3. '100': It will be removed if you hit three times, with score 100 points<br>
+  ‘10’: Removed at hitting once, and 10 points of earning.<br>
+  ‘50’: Removed at hitting twice, and 50 points of earning.<br>
+  ‘100’: Removed at hitting three times, and 100 points of earning.<br>
   <br>
   <a href="#" class="cta" onclick="openPopup('https://truemaxdh.github.io/EnjoyCoding/game_shooting/www/');">Play</a>
   <a href="https://play.google.com/store/apps/details?id=com.pgmaru.ShootingDream" target="_appStore" class="cta">AppStore</a>
