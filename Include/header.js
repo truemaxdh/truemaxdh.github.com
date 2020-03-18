@@ -10,7 +10,7 @@ if (typeof cookieBread==="undefined") {
            "    <a href='http://pgmaru.blogspot.com/'>Blog</a> | " +
            "    <a href='https://github.com/truemaxdh'>GitHub</a>" +
            "  </div>" +
-           "  <hr>" +
+           //"  <hr>" +
            "</div>";
 } else {
   header = "<div id='header'>" +
@@ -23,7 +23,7 @@ if (typeof cookieBread==="undefined") {
            "    <a href='http://pgmaru.blogspot.com/'>Blog</a> | " +
            "    <a href='https://github.com/truemaxdh'>GitHub</a>" +
            "  </div>" +
-           "  <hr>" +
+           //"  <hr>" +
            "</div>";
 }
 document.write(header);
