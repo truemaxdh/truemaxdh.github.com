@@ -233,3 +233,7 @@ body {
   color: #73AD21;
   font-size: 23px;
 }
+
+#header hr {
+  color: #73AD21;
+}
