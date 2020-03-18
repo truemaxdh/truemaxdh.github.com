@@ -208,10 +208,12 @@ body {
 }
 
 #header {
-  background: #1a1a1a;
+  border: 1px solid #73AD21;
+  //background: #1a1a1a;
   text-align: center;
   font-weight: bold;
-  color: #fff;
+  //color: #fff;
+  color: #73AD21;
 }
 
 #header #title {
