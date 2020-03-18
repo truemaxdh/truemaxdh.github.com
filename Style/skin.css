@@ -217,7 +217,8 @@ body {
 }
 
 #header #title {
-  color: #ffffc8;
+  //color: #ffffc8;
+  color: #73AD21;
   font-size: 25px;
   left: 0px;
 }
@@ -228,6 +229,7 @@ body {
 
 #header a {
   text-decoration: none;
-  color: #fff;
+  //color: #fff;
+  color: #73AD21;
   font-size: 23px;
 }
