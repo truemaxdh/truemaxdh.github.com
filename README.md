@@ -17,6 +17,7 @@ ___
  1. '10': Removed at hitting once, and 10 points of earning.<br>
  2. '50': Removed at hitting twice, and 50 points of earning.<br>
  3. '100': Removed at hitting three times, and 100 points of earning.<br>
+<br>
 [Play](https://truemaxdh.github.io/EnjoyCoding/game_shooting/)
 [Android](https://play.google.com/store/apps/details?id=com.pgmaru.ShootingDream)
 [GitHub](https://github.com/truemaxdh/EnjoyCoding/tree/gh-pages/game_shooting)
@@ -29,6 +30,7 @@ Crayon Pentix is web and android version of pentix game.<br>
 When you rotate this block and stack it up and fill one row tightly,<br>
 the line disappears and the score goes up.<br>
 It is a game that competes to see who gets rid of more lines.<br>
+<br>
 [Play](https://truemaxdh.github.io/EnjoyCoding/game_pentix/)
 [Android](https://play.google.com/store/apps/details?id=com.pgmaru.SimplePentix)
 [GitHub](https://github.com/truemaxdh/EnjoyCoding/tree/gh-pages/game_pentix)
