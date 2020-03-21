@@ -177,7 +177,7 @@ body {
   width: 965px;
   height: 30px;
   vertical-align: middle;
-  background: #691;
+  background: #590;
   color: #fff;
   overflow-y: hidden;
 }
@@ -189,22 +189,24 @@ body {
 }
 
 #static_cont h1 {
-  color: #ffffc8;
+  color: #ffffd0;
 }
 
 #static_cont h2 {
-  color: #ffffd9;
+  color: #ffffdf;
 }
 
 #static_cont h3 {
-  color:#ffffea;
+  color:#fffff0;
 }
 
 #static_cont a {
-  background: #1a1a1a;
+  background: #73AD21;
   color:#fff;
   border: 2px solid #fff;
-  border-radius : 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 2px;
 }
 
 #header {
