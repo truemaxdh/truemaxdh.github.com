@@ -72,3 +72,9 @@ ___
 ### A simple piano/jukebox created in HTML5
 #### A simple piano/jukebox created in HTML5.You can choose to play a voice and a song,or you can play it directly on the keyboard.
 [Play](https://truemaxdh.github.io/SimplePiano/)
+___
+## [Art] Music Cloud
+### My composed music upload place
+#### A place where I upload musics I made to
+[Go](https://truemaxdh.github.io/MusicCloud/)
+[GitHub](https://github.com/truemaxdh/MusicCloud)
