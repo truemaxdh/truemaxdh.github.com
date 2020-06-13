@@ -76,5 +76,5 @@ ___
 ## [Art] Music Cloud
 ### My composed music upload place
 #### A place where I upload musics I made to
-[Go](https://truemaxdh.github.io/MusicCloud/)
+[Demo](https://truemaxdh.github.io/MusicCloud/)
 [GitHub](https://github.com/truemaxdh/MusicCloud)
