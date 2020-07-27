@@ -84,3 +84,10 @@ ___
 #### A place where I upload musics I made to
 [Demo](https://truemaxdh.github.io/MusicCloud/)
 [GitHub](https://github.com/truemaxdh/MusicCloud)
+___
+## [Art] Interactive Fireworks
+### Interactive Fireworks
+#### Interactive Fireworks<br><br>
+[Play](https://truemaxdh.github.io/EnjoyCoding/interactive_fireworks/)
+[Android](https://play.google.com/store/apps/details?id=com.pgmaru.interactive.fireworks)
+[GitHub](https://github.com/truemaxdh/EnjoyCoding/tree/gh-pages/interactive_fireworks)
