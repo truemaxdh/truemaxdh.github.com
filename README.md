@@ -18,7 +18,7 @@ ___
  ▶ '50': Removed at hitting twice, and 50 points of earning.<br>
  ▶ '100': Removed at hitting three times, and 100 points of earning.<br><br>
 [Play](https://truemaxdh.github.io/EnjoyCoding/game_shooting/)
-[Android](https://play.google.com/store/apps/details?id=com.pgmaru.ShootingDream)
+[Android](https://play.google.com/store/apps/details?id=com.pgmaru.doodleflight)
 [GitHub](https://github.com/truemaxdh/EnjoyCoding/tree/gh-pages/game_shooting)
 ___
 ## [Game] Crayon Pentix
@@ -30,7 +30,7 @@ When you rotate this block and stack it up and fill one row tightly,<br>
 the line disappears and the score goes up.<br>
 It is a game that competes to see who gets rid of more lines.<br><br>
 [Play](https://truemaxdh.github.io/EnjoyCoding/game_pentix/)
-[Android](https://play.google.com/store/apps/details?id=com.pgmaru.SimplePentix)
+[Android](https://play.google.com/store/apps/details?id=com.pgmaru.pentix)
 [GitHub](https://github.com/truemaxdh/EnjoyCoding/tree/gh-pages/game_pentix)
 ___
 ## [Game] Magic Ball
