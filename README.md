@@ -98,9 +98,9 @@ ___
 [Android](https://play.google.com/store/apps/details?id=com.pgmaru.interactive.fireworks)
 [GitHub](https://github.com/truemaxdh/EnjoyCoding/tree/gh-pages/interactive_fireworks)
 
+___
 ## [Art] Bubbles
 ### Variation of Bubbles
 #### Variation of Bubbles<br><br>
 [Play](https://truemaxdh.github.io/Bubbles/)
 [GitHub](https://github.com/truemaxdh/Bubbles)
-
