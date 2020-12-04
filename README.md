@@ -99,8 +99,8 @@ ___
 [GitHub](https://github.com/truemaxdh/EnjoyCoding/tree/gh-pages/interactive_fireworks)
 
 ___
-## [Art] Bubbles
-### Variation of Bubbles
-#### Variation of Bubbles<br><br>
-[Play](https://truemaxdh.github.io/Bubbles/)
-[GitHub](https://github.com/truemaxdh/Bubbles)
+## [Art] Motion Graphics
+### Sketches of Motion Graphic
+#### Sketches of Motion Graphic<br><br>
+[Play](https://truemaxdh.github.io/MotionGraphics/)
+[GitHub](https://github.com/truemaxdh/MotionGraphics)
