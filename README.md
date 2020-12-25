@@ -45,11 +45,11 @@ ___
 [Play](https://truemaxdh.github.io/EnjoyCoding/game_dokebi_ball/)
 [GitHub](https://github.com/truemaxdh/EnjoyCoding/tree/gh-pages/game_dokebi_ball)
 ___
-## [Game] Dokebi Ball Divide
-### You should divide balls until they become small and disappear.
-#### Dokebi Ball is an arcade game. You should divide balls until they become small and disappear.
-[Play](https://truemaxdh.github.io/EnjoyCoding/game_dokebiball_divide/)
-[GitHub](https://github.com/truemaxdh/EnjoyCoding/tree/gh-pages/game_dokebiball_divide)
+## [Game] Meteorite Defense
+### Meteorite Defense
+#### Meteorite Defense
+[Play](https://truemaxdh.github.io/EnjoyCoding/game_meteorite_defense/)
+[GitHub](https://github.com/truemaxdh/EnjoyCoding/tree/gh-pages/game_meteorite_defense)
 ___
 ## [Game] Jumping Car
 ### Simple game to avoid obstacles through jumping.
