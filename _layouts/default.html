@@ -54,57 +54,6 @@
           }
           showGenres();
         });
-        /*var xhttp = new XMLHttpRequest();
-        xhttp.onreadystatechange = function() {
-          if (this.readyState == 4) {
-            if (this.status == 200) {
-              
-              // TEST
-              var tmp = this.responseText;
-              tmp = tmp.replace(/\n/g, "");
-              tmp = tmp.replace(/#### /g,"\" ,\"Desc\": \"");
-              tmp = tmp.replace(/### /g,"\" ,\"ShortDesc\": \"");
-              tmp = tmp.replace(/] /g,"\" ,\"Title\":\"");
-              tmp = tmp.replace(/## \[/g," {\"Genre\": \"");
-
-              tmp = tmp.replace(/\[/g,"\", \"");
-              tmp = tmp.replace(/]\(/g,"\": \"");
-              tmp = tmp.replace(/\)/g,"");
-              
-              tmp = tmp.replace(/___/g,"\" },\n");
-              
-              tmp = tmp.replace(/# Coding SketchbookMy coding log.---/g, "{ \"AppList\":[\n");
-              
-              tmp += "\" }]}";                  
-              console.log(tmp);
-              
-              //var board = document.getElementById("contents");
-              //board.innerHTML=tmp;
-              //return;
-              
-              
-              
-              // SUCCESS
-              //var json = this.responseText;
-              var json = tmp;
-              appList = JSON.parse(json).AppList;
-              toggleStaticCont();
-              
-              for (var i = 0; i < appList.length; i++) {
-                var gnre = appList[i].Genre;
-                if (genres.find(function(el) {return el==gnre;}) == undefined) {
-                  genres.push(gnre);
-                }
-              }
-              showGenres();
-            } else {
-              alert("failed to load data");
-            }
-          }
-        }
-        //xhttp.open("GET", "/contents/AppList.json", true);
-        xhttp.open("GET", "/README.md", true);
-        xhttp.send();*/
       }
       
       function showGenres() {
