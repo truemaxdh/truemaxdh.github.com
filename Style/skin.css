@@ -7,7 +7,7 @@ html.darkmode body, html.darkmode .square {
   background-color : #121212;
 }
 
-html.darkmode .bigCircle:hover {
+html.darkmode .bigCircle:hover, html.darkmode #static_cont {
   color:#121212;
 }
 
