@@ -19,11 +19,42 @@
     <link rel="stylesheet" href="/Style/skin.css">
     
     <script>
-      var genres = [];
-      var appList = [];
+      let genres = [];
+      let appList = [];
       //
       window.onload = function() {
-        var xhttp = new XMLHttpRequest();
+        fetch("/README.md")
+        .then(response=>response.text())
+        .then(tmp=>{
+          tmp = tmp.replace(/\n/g, "");
+          tmp = tmp.replace(/#### /g,"\" ,\"Desc\": \"");
+          tmp = tmp.replace(/### /g,"\" ,\"ShortDesc\": \"");
+          tmp = tmp.replace(/] /g,"\" ,\"Title\":\"");
+          tmp = tmp.replace(/## \[/g," {\"Genre\": \"");
+
+          tmp = tmp.replace(/\[/g,"\", \"");
+          tmp = tmp.replace(/]\(/g,"\": \"");
+          tmp = tmp.replace(/\)/g,"");
+
+          tmp = tmp.replace(/___/g,"\" },\n");
+
+          tmp = tmp.replace(/# Coding SketchbookMy coding log.---/g, "{ \"AppList\":[\n");
+
+          tmp += "\" }]}";                  
+          console.log(tmp);
+          var json = tmp;
+          appList = JSON.parse(json).AppList;
+          toggleStaticCont();
+
+          for (var i = 0; i < appList.length; i++) {
+            var gnre = appList[i].Genre;
+            if (genres.find(function(el) {return el==gnre;}) == undefined) {
+              genres.push(gnre);
+            }
+          }
+          showGenres();
+        });
+        /*var xhttp = new XMLHttpRequest();
         xhttp.onreadystatechange = function() {
           if (this.readyState == 4) {
             if (this.status == 200) {
@@ -73,7 +104,7 @@
         }
         //xhttp.open("GET", "/contents/AppList.json", true);
         xhttp.open("GET", "/README.md", true);
-        xhttp.send();
+        xhttp.send();*/
       }
       
       function showGenres() {
