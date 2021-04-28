@@ -3,12 +3,8 @@ body {
   margin: auto;
 }
 
-html.darkmode body {
+html.darkmode body, .square {
   background-color : #121212;
-}
-
-html.darkmode .square {
-  background-color : #1F1B24;
 }
 
 .normalBtn {
