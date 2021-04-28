@@ -26,4 +26,15 @@ if (typeof cookieBread==="undefined") {
            //"  <hr>" +
            "</div>";
 }
+header += "<button onclick='toggleDark();'>dark<button>";
 document.write(header);
+
+let darkMode = false;
+function toggleDark() {
+    if (darkMode) {
+      document.documentElement.classList.remove("darkmode");
+    } else {
+      document.documentElement.classList.add("darkmode");
+    }
+  darkMode = !darkMode;
+}
