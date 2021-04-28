@@ -26,7 +26,7 @@ if (typeof cookieBread==="undefined") {
            //"  <hr>" +
            "</div>";
 }
-header += "<button onclick='toggleDark();'>dark<button>";
+//header += "<button onclick='toggleDark();'>dark<button>";
 document.write(header);
 
 let darkMode = false;
