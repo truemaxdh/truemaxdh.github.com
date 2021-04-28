@@ -7,6 +7,10 @@ html.darkmode body, html.darkmode .square {
   background-color : #121212;
 }
 
+html.darkmode .bigCircle:hover {
+  color:#121212;
+}
+
 .normalBtn {
   font-weight: bold;
   font-size: 20px;
@@ -57,6 +61,11 @@ html.darkmode body, html.darkmode .square {
   cursor:pointer;
 }
 
+.bigCircle:hover {
+  background:#73AD21;
+  color:white;
+}
+
 @media only screen and (max-width:965px) {
   .square {
     font-size:20px;
@@ -97,11 +106,6 @@ html.darkmode body, html.darkmode .square {
   ::-webkit-scrollbar-thumb:hover {
     background: #b30000; 
   }
-}
-
-.bigCircle:hover {
-  background:#73AD21;
-  color:white;
 }
 
 .p_mid {
