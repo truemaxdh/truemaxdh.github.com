@@ -1,4 +1,4 @@
-var header;
+let header;
 if (typeof cookieBread==="undefined") { 
   header = "<div id='header'>" +
            "  <div id='title'>" +
@@ -26,4 +26,5 @@ if (typeof cookieBread==="undefined") {
            //"  <hr>" +
            "</div>";
 }
+header += "<input type='checkbox' id='toggleDark' onclick='toggleDark(this.checked);'><label for='toggleDark'>dark mode</label>";
 document.write(header);
