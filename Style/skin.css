@@ -3,6 +3,10 @@ body {
   margin: auto;
 }
 
+html.darkmode body {
+  background-color : #121212;
+}
+
 .normalBtn {
   font-weight: bold;
   font-size: 20px;
