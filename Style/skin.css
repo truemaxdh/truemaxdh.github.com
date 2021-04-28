@@ -7,6 +7,10 @@ html.darkmode body {
   background-color : #121212;
 }
 
+html.darkmode .square {
+  background-color : #1F1B24;
+}
+
 .normalBtn {
   font-weight: bold;
   font-size: 20px;
