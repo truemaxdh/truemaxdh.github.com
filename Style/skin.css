@@ -205,14 +205,17 @@ html.darkmode #static_cont a
 
 #static_cont h1 {
   color: #fff;
+  font-size: 1.5em;
 }
 
 #static_cont h2 {
   color: #ffffdf;
+  font-size: 1.25em;
 }
 
 #static_cont h3 {
   color:#fffff0;
+  font-size: 1.1em;
 }
 
 #static_cont a {
