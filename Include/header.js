@@ -3,9 +3,9 @@ if (typeof cookieBread==="undefined") {
   header = 
     "<div id='header'>" +
     "  <div id='title'>" +
-    "    <a onclick='toggleStaticCont();'>▤</a>" + 
+    "    <a href='javascript:toggleStaticCont();'>▤</a>" + 
     "    Coding Sketchbook" +
-    "    <a onclick='toggleDark();'>◐<a>" +
+    "    <a href='javascript:toggleDark();'>◐<a>" +
     "  </div>" +
     "  <div id='menu'>" +
     "    <a href='/2020/02/29/About.html'>About</a> | " +
@@ -21,7 +21,7 @@ if (typeof cookieBread==="undefined") {
     "  <div id='title'>" +
     "    <a href='https://truemaxdh.github.io'>▤</a>" +
     "    <span id='title'>Coding Sketchbook</span>" +
-    "    <a onclick='toggleDark();'>◐<a>" +
+    "    <a href='javascript:toggleDark();'>◐<a>" +
     "  </div>" +
     "  <div id='menu'>" +
     "    <a href='https://truemaxdh.github.io'>Home</a>" + cookieBread + " | " +
