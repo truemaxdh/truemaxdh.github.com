@@ -8,11 +8,11 @@ html.darkmode body {
   color: #73AD21;
 }
 
-html.darkmode a,
+/*html.darkmode a,
 html.darkmode .square
 {
   color: #73AD21;
-}
+}*/
 
 html.darkmode .bigCircle:hover, 
 html.darkmode #static_cont,
