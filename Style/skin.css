@@ -4,7 +4,8 @@ body {
 }
 
 html.darkmode body, html.darkmode .square {
-  background-color : #121212;
+  background-color: #121212;
+  color: #FFF;
 }
 
 html.darkmode .bigCircle:hover, 
