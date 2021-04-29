@@ -21,13 +21,8 @@
     <script>
       let genres = [];
       let appList = [];
-      //
-      window.onload = function() {
-        const pref = window.matchMedia("(prefers-color-scheme: dark)");
-        if (pref.matches) {
-            toggleDark();
-        }
-        
+      
+      const onLoadEx = function() {
         fetch("/README.md")
         .then(response=>response.text())
         .then(tmp=>{
