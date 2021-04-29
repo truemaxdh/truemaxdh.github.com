@@ -3,7 +3,10 @@ body {
   margin: auto;
 }
 
-html.darkmode body, html.darkmode .square {
+html.darkmode body, 
+html.darkmode a,
+html.darkmode .square
+{
   background-color: #121212;
   color: #FFF;
 }
