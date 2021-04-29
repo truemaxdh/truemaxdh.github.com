@@ -1,11 +1,12 @@
 body {
   max-width: 965px;
   margin: auto;
+  color: #73AD21;
 }
 
 html.darkmode body {
   background-color: #121212;
-  color: #73AD21;
+  /*color: #73AD21;*/
 }
 
 html.darkmode a,
