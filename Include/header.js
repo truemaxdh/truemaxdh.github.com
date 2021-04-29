@@ -49,5 +49,5 @@ window.onload = ()=>{
   if (pref.matches) {
       toggleDark();
   }
-  if (onLoadEx !== undefined) onLoadEx();
+  if (typeof onLoadEx != 'undefined') onLoadEx();
 }
