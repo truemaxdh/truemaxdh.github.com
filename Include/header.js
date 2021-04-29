@@ -35,11 +35,19 @@ if (typeof cookieBread==="undefined") {
 document.write(header);
 
 let darkMode = false;
-function toggleDark() {
+const toggleDark = ()=>{
     if (darkMode) {
       document.documentElement.classList.remove("darkmode");
     } else {
       document.documentElement.classList.add("darkmode");
     }
   darkMode = !darkMode;
+}
+
+window.onload = ()=>{
+  const pref = window.matchMedia("(prefers-color-scheme: dark)");
+  if (pref.matches) {
+      toggleDark();
+  }
+  if (!!onLoadEx) onLoadEx();
 }
