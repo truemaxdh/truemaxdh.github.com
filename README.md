@@ -33,6 +33,18 @@ It is a game that competes to see who gets rid of more lines.<br><br>
 [Android](https://play.google.com/store/apps/details?id=com.pgmaru.pentix)
 [GitHub](https://github.com/truemaxdh/EnjoyCoding/tree/gh-pages/game_pentix)
 ___
+## [Game] Meteorite Defense
+### Meteorite Defense
+#### Meteorite Defense
+[Play](https://truemaxdh.github.io/EnjoyCoding/game_meteorite_defense/)
+[GitHub](https://github.com/truemaxdh/EnjoyCoding/tree/gh-pages/game_meteorite_defense)
+___
+## [Game] Classic Shooting Game
+### Shooting game made by C++(MFC)
+#### Classical shooting game.It is a game I made for practice while studying C++ long ago.
+[Play](https://github.com/truemaxdh/MFC_ShootingGame/blob/master/Release/ShootingGame.exe?raw=true)
+[GitHub](https://github.com/truemaxdh/MFC_ShootingGame/)
+___
 ## [Game] Magic Ball
 ### Under Developing. Shoot and Divide Balls
 #### Simple arcade game. Shoot and Divide Balls.When you hit a ball,it splits into two smaller balls,eventually disappearing.
@@ -45,22 +57,10 @@ ___
 [Play](https://truemaxdh.github.io/EnjoyCoding/game_dokebi_ball/)
 [GitHub](https://github.com/truemaxdh/EnjoyCoding/tree/gh-pages/game_dokebi_ball)
 ___
-## [Game] Meteorite Defense
-### Meteorite Defense
-#### Meteorite Defense
-[Play](https://truemaxdh.github.io/EnjoyCoding/game_meteorite_defense/)
-[GitHub](https://github.com/truemaxdh/EnjoyCoding/tree/gh-pages/game_meteorite_defense)
-___
 ## [Game] Jumping Car
 ### Simple game to avoid obstacles through jumping.
 #### CSS-oriented game, not Javascript-oriented. Currently under development.
 [Play](https://truemaxdh.github.io/EnjoyCoding/game_hscroll_car/)
-___
-## [Game] Classic Shooting Game
-### Shooting game made by C++(MFC)
-#### Classical shooting game.It is a game I made for practice while studying C++ long ago.
-[Play](https://github.com/truemaxdh/MFC_ShootingGame/blob/master/Release/ShootingGame.exe?raw=true)
-[GitHub](https://github.com/truemaxdh/MFC_ShootingGame/)
 ___
 ## [Utility] Simple Graph .JS
 ### A Javascript Graph Utility
