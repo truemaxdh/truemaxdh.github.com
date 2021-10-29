@@ -51,9 +51,9 @@ ___
 [Play](https://truemaxdh.github.io/EnjoyCoding/game_magic_bouncing_ball/)
 [GitHub](https://github.com/truemaxdh/EnjoyCoding/tree/gh-pages/game_magic_bouncing_ball)
 ___
-## [Game] Dokebi Ball
-### You should divide balls until they become small and disappear.
-#### Dokebi Ball is an arcade game. You should divide balls until they become small and disappear.
+## [Game] Split The Ball
+### Touch and split the balls to make them disappear.
+#### Touch the ball to split it. Divide the ball until it gets smaller and disappears.
 [Play](https://truemaxdh.github.io/EnjoyCoding/game_dokebi_ball/)
 [GitHub](https://github.com/truemaxdh/EnjoyCoding/tree/gh-pages/game_dokebi_ball)
 ___
