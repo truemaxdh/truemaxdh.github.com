@@ -62,11 +62,17 @@ ___
 #### CSS-oriented game, not Javascript-oriented. Currently under development.
 [Play](https://truemaxdh.github.io/EnjoyCoding/game_hscroll_car/)
 ___
-## [Utility] Simple Graph .JS
+## [ETC] Simple Graph .JS
 ### A Javascript Graph Utility
 #### A Javascript Graph Utility for Line Graph, Pie Graph, etc.
 [Demo](https://truemaxdh.github.io/simpleGraph.js/)
 [GitHub](https://github.com/truemaxdh/simpleGraph.js)
+___
+## [ETC] Machine Learning Playgrround
+### A Javascript Machine Learning Playgrround
+#### A Javascript Machine Learning Playgrround
+[Demo](https://truemaxdh.github.io/PlayML.js/)
+[GitHub](https://github.com/truemaxdh/PlayML.js)
 ___
 ## [Art] Ways To Draw Tree
 ### various ways to draw a tree in HTML5
