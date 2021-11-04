@@ -68,7 +68,7 @@ ___
 [Demo](https://truemaxdh.github.io/simpleGraph.js/)
 [GitHub](https://github.com/truemaxdh/simpleGraph.js)
 ___
-## [ETC] Machine Learning Playgrround
+## [ETC] Machine Learning Playground
 ### A Javascript Machine Learning Playgrround
 #### A Javascript Machine Learning Playgrround
 [Demo](https://truemaxdh.github.io/PlayML.js/)
