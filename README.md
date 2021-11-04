@@ -62,18 +62,6 @@ ___
 #### CSS-oriented game, not Javascript-oriented. Currently under development.
 [Play](https://truemaxdh.github.io/EnjoyCoding/game_hscroll_car/)
 ___
-## [ETC] Simple Graph .JS
-### A Javascript Graph Utility
-#### A Javascript Graph Utility for Line Graph, Pie Graph, etc.
-[Demo](https://truemaxdh.github.io/simpleGraph.js/)
-[GitHub](https://github.com/truemaxdh/simpleGraph.js)
-___
-## [ETC] Machine Learning Playground
-### A Javascript Machine Learning Playgrround
-#### A Javascript Machine Learning Playgrround
-[Demo](https://truemaxdh.github.io/PlayML.js/)
-[GitHub](https://github.com/truemaxdh/PlayML.js)
-___
 ## [Art] Ways To Draw Tree
 ### various ways to draw a tree in HTML5
 #### Shows how to draw a tree in various ways in HTML5.
@@ -103,17 +91,27 @@ ___
 [Play](https://truemaxdh.github.io/EnjoyCoding/interactive_fireworks/)
 [Android](https://play.google.com/store/apps/details?id=com.pgmaru.interactive.fireworks)
 [GitHub](https://github.com/truemaxdh/EnjoyCoding/tree/gh-pages/interactive_fireworks)
-
 ___
 ## [Art] Motion Graphics
 ### Sketches of Motion Graphic
 #### Sketches of Motion Graphic<br><br>
 [Play](https://truemaxdh.github.io/MotionGraphics/)
 [GitHub](https://github.com/truemaxdh/MotionGraphics)
-
 ___
 ## [Art] Interactive Popping Ballons
 ### Interactive Popping Ballons
 #### Interactive Popping Ballons<br><br>
 [Play](https://truemaxdh.github.io/EnjoyCoding/interactive_popping_balloons/)
 [GitHub](https://github.com/truemaxdh/EnjoyCoding/tree/gh-pages/interactive_popping_balloons)
+___
+## [etc] Simple Graph .JS
+### A Javascript Graph Utility
+#### A Javascript Graph Utility for Line Graph, Pie Graph, etc.
+[Demo](https://truemaxdh.github.io/simpleGraph.js/)
+[GitHub](https://github.com/truemaxdh/simpleGraph.js)
+___
+## [etc] Machine Learning Playground
+### A Javascript Machine Learning Playgrround
+#### A Javascript Machine Learning Playgrround
+[Demo](https://truemaxdh.github.io/PlayML.js/)
+[GitHub](https://github.com/truemaxdh/PlayML.js)
