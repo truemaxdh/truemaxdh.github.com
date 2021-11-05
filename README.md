@@ -115,3 +115,9 @@ ___
 #### A Javascript Machine Learning Playgrround
 [Demo](https://truemaxdh.github.io/PlayML.js/)
 [GitHub](https://github.com/truemaxdh/PlayML.js)
+___
+## [etc] EnjoyCoding - Unfinished Works
+### Home for not finished works
+#### Home for not finished works
+[Demo](https://truemaxdh.github.io/EnjoyCoding/)
+[GitHub](https://github.com/truemaxdh/EnjoyCoding)
