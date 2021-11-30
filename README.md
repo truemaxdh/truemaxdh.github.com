@@ -45,12 +45,6 @@ ___
 [Play](https://github.com/truemaxdh/MFC_ShootingGame/blob/master/Release/ShootingGame.exe?raw=true)
 [GitHub](https://github.com/truemaxdh/MFC_ShootingGame/)
 ___
-## [Game] Magic Ball
-### Under Developing. Shoot and Divide Balls
-#### Simple arcade game. Shoot and Divide Balls.When you hit a ball,it splits into two smaller balls,eventually disappearing.
-[Play](https://truemaxdh.github.io/EnjoyCoding/game_magic_bouncing_ball/)
-[GitHub](https://github.com/truemaxdh/EnjoyCoding/tree/gh-pages/game_magic_bouncing_ball)
-___
 ## [Game] Split The Ball
 ### Touch and split the balls to make them disappear.
 #### Touch the ball to split it. Divide the ball until it gets smaller and disappears.
