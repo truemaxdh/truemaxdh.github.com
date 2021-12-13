@@ -93,9 +93,9 @@ ___
 [Play](https://truemaxdh.github.io/EnjoyCoding/interactive_popping_balloons/)
 [GitHub](https://github.com/truemaxdh/EnjoyCoding/tree/gh-pages/interactive_popping_balloons)
 ___
-## [Art] Side Scroll Car Demo
-### Interactive Popping Ballons
-#### Interactive Popping Ballons<br><br>
+## [Art] Side Scroll Demo
+### Side Scroll car game Demo
+#### Side Scroll car game Demo<br><br>
 [Play](https://truemaxdh.github.io/EnjoyCoding/demo_sidescroll_car/)
 [GitHub](https://github.com/truemaxdh/EnjoyCoding/tree/gh-pages/demo_sidescroll_car)
 ___
