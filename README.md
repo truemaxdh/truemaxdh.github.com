@@ -45,11 +45,11 @@ ___
 [Play](https://github.com/truemaxdh/MFC_ShootingGame/blob/master/Release/ShootingGame.exe?raw=true)
 [GitHub](https://github.com/truemaxdh/MFC_ShootingGame/)
 ___
-## [Game] Split The Ball
+## [Game] Split Ball
 ### Touch and split the balls to make them disappear.
 #### Touch the ball to split it. Divide the ball until it gets smaller and disappears.
-[Play](https://truemaxdh.github.io/EnjoyCoding/game_dokebi_ball/)
-[GitHub](https://github.com/truemaxdh/EnjoyCoding/tree/gh-pages/game_dokebi_ball)
+[Play](https://truemaxdh.github.io/EnjoyCoding/game_split_ball/)
+[GitHub](https://github.com/truemaxdh/EnjoyCoding/tree/gh-pages/game_split_ball)
 ___
 ## [Game] Jumping Car
 ### Simple game to avoid obstacles through jumping.
