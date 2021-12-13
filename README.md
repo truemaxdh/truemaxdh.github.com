@@ -98,6 +98,12 @@ ___
 [Play](https://truemaxdh.github.io/EnjoyCoding/interactive_popping_balloons/)
 [GitHub](https://github.com/truemaxdh/EnjoyCoding/tree/gh-pages/interactive_popping_balloons)
 ___
+## [Art] Clocks
+### Clocks
+#### Clocks<br><br>
+[Play](https://truemaxdh.github.io/EnjoyCoding/interactive_clocks/)
+[GitHub](https://github.com/truemaxdh/EnjoyCoding/tree/gh-pages/interactive_clocks)
+___
 ## [etc] Simple Graph .JS
 ### A Javascript Graph Utility
 #### A Javascript Graph Utility for Line Graph, Pie Graph, etc.
