@@ -51,11 +51,6 @@ ___
 [Play](https://truemaxdh.github.io/EnjoyCoding/game_split_ball/)
 [GitHub](https://github.com/truemaxdh/EnjoyCoding/tree/gh-pages/game_split_ball)
 ___
-## [Game] Jumping Car
-### Simple game to avoid obstacles through jumping.
-#### CSS-oriented game, not Javascript-oriented. Currently under development.
-[Play](https://truemaxdh.github.io/EnjoyCoding/game_hscroll_car/)
-___
 ## [Art] Ways To Draw Tree
 ### various ways to draw a tree in HTML5
 #### Shows how to draw a tree in various ways in HTML5.
