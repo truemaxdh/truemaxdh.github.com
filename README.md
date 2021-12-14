@@ -111,6 +111,13 @@ ___
 [Demo](https://truemaxdh.github.io/simpleGraph.js/)
 [GitHub](https://github.com/truemaxdh/simpleGraph.js)
 ___
+
+## [etc] Korean Study Game
+### Korean Study Game
+#### Korean Study Game
+[Demo](https://truemaxdh.github.io/EnjoyCoding/interactive_KoreanTTS/)
+[GitHub](https://github.com/truemaxdh/EnjoyCoding/interactive_KoreanTTS)
+___
 ## [etc] Machine Learning Playground
 ### A Javascript Machine Learning Playgrround
 #### A Javascript Machine Learning Playgrround
