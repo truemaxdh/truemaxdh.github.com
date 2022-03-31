@@ -8,9 +8,9 @@ My coding log.
 [Play](https://truemaxdh.github.io/2048-AI/)
 [GitHub](https://github.com/truemaxdh/2048-AI)
 ___
-## [Game] Plane vs Coins
-### Plane vs Coins, a simple flight shooting game.
-#### Plane vs Coins is a simple flight shooting game, with only a few rules.<br>
+## [Game] Tiny Flight
+### Tiny Flight, a simple flight shooting game.
+#### Tiny Flight is a simple flight shooting game, with only a few rules.<br>
  Avoid bombs.Shoot coins, but not bump into coins.<br>
  That's all.<br>
  Coins are differ with their number in endurance and score.<br>
