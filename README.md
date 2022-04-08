@@ -124,6 +124,12 @@ ___
 [Demo](https://truemaxdh.github.io/PlayML.js/)
 [GitHub](https://github.com/truemaxdh/PlayML.js)
 ___
+## [etc] Flutter Music Player
+### Flutter Music Player Demo from flutter pub
+#### Flutter Music Player Demo from flutter pub
+[Demo](https://truemaxdh.github.io/flutter_musicplayer/)
+[GitHub](https://github.com/truemaxdh/flutter_musicplayer)
+___
 ## [etc] EnjoyCoding - Unfinished Works
 ### Home for not finished works
 #### Home for not finished works
