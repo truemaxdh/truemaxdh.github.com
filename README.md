@@ -39,6 +39,18 @@ ___
 [Play](https://truemaxdh.github.io/EnjoyCoding/game_meteorite_defense/)
 [GitHub](https://github.com/truemaxdh/EnjoyCoding/tree/gh-pages/game_meteorite_defense)
 ___
+## [Game] Magic Ball
+### Magic Ball
+#### Magic Ball
+[Play](https://truemaxdh.github.io/EnjoyCoding/game_magic_bouncing_ball/)
+[GitHub](https://github.com/truemaxdh/EnjoyCoding/tree/gh-pages/game_magic_bouncing_ball)
+___
+## [Game] Racing 2D
+### Racing 2D
+#### Racing 2D
+[Play](https://truemaxdh.github.io/EnjoyCoding/game_racing2d/)
+[GitHub](https://github.com/truemaxdh/EnjoyCoding/tree/gh-pages/game_racing2d)
+___
 ## [Game] Classic Shooting Game
 ### Shooting game made by C++(MFC)
 #### Classical shooting game.It is a game I made for practice while studying C++ long ago.
